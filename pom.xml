@@ -53,12 +53,12 @@
             <systemPath>${basedir}/src/main/resources/lib/htmlunit-driver-2.26.jar</systemPath>
         </dependency>
         <dependency>
-            <groupId>org.sqlite</groupId>
-            <artifactId>org.sqlite</artifactId>
+            <groupId>com.example</groupId>
+            <artifactId>mylib</artifactId>
             <version>3.16.1</version>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/resources/sqlite-jdbc-3.16.1.jar</systemPath>
         </dependency>
+
+
     </dependencies>
 
     <properties>
@@ -91,6 +91,11 @@
         <repository>
             <id>spring-releases</id>
             <url>https://repo.spring.io/libs-release</url>
+        </repository>
+        <repository>
+            <id>project.local</id>
+            <name>project</name>
+            <url>file:${project.basedir}/repo</url>
         </repository>
     </repositories>
     <pluginRepositories>

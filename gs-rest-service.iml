@@ -96,14 +96,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
-      <library name="Maven: org.sqlite:org.sqlite:3.16.1">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/resources/sqlite-jdbc-3.16.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="Maven: com.example:mylib:3.16.1" level="project" />
   </component>
 </module>
