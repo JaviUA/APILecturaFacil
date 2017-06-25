@@ -31,13 +31,7 @@
             <artifactId>commons-lang3</artifactId>
             <version>3.1</version>
         </dependency>
-        <dependency>
-            <groupId>jsoup</groupId>
-            <artifactId>com.sample</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/resources/jsoup-1.10.2.jar</systemPath>
-        </dependency>
+
         <dependency>
             <groupId>openqa.selenium</groupId>
             <artifactId>selenium</artifactId>
@@ -57,7 +51,11 @@
             <artifactId>mylib</artifactId>
             <version>3.16.1</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>mylib2</artifactId>
+            <version>1.0</version>
+        </dependency>
 
     </dependencies>
 

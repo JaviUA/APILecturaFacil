@@ -70,15 +70,6 @@
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.38" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.1" level="project" />
     <orderEntry type="module-library">
-      <library name="Maven: jsoup:com.sample:1.0">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/resources/jsoup-1.10.2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="Maven: openqa.selenium:selenium:1.0">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/src/main/resources/client-combined-3.4.0-nodeps.jar!/" />
@@ -97,5 +88,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="Maven: com.example:mylib:3.16.1" level="project" />
+    <orderEntry type="library" name="Maven: com.example:mylib2:1.0" level="project" />
   </component>
 </module>
