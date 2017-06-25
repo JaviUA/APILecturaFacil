@@ -36,28 +36,28 @@
             <artifactId>com.sample</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/src/main/resources/jsoup-1.10.2.jar</systemPath>
+            <systemPath>${basedir}/src/main/resources/jsoup-1.10.2.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>openqa.selenium</groupId>
             <artifactId>selenium</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/src/main/resources/client-combined-3.4.0-nodeps.jar</systemPath>
+            <systemPath>${basedir}/src/main/resources/client-combined-3.4.0-nodeps.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>htmlunit</groupId>
             <artifactId>selenium</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/src/main/resources/lib/htmlunit-driver-2.26.jar</systemPath>
+            <systemPath>${basedir}/src/main/resources/lib/htmlunit-driver-2.26.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.sqlite</groupId>
             <artifactId>org.sqlite</artifactId>
             <version>3.16.1</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/src/main/resources/sqlite-jdbc-3.16.1.jar</systemPath>
+            <systemPath>${basedir}/src/main/resources/sqlite-jdbc-3.16.1.jar</systemPath>
         </dependency>
     </dependencies>
 
