@@ -31,6 +31,12 @@ import static org.springframework.web.bind.annotation.RequestMethod.POST;
 public class ApiController {
 
 
+    @RequestMapping("/")
+    @ResponseBody
+    String home() {
+        return "Hello World!";
+    }
+    
     @RequestMapping(value = "/calcularContextos", method = POST)
     @ResponseBody
     public ArrayList<Contexto> calcularContextos(@RequestBody String body) {
