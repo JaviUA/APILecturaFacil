@@ -52,6 +52,13 @@
             <scope>system</scope>
             <systemPath>${project.basedir}/src/main/resources/lib/htmlunit-driver-2.26.jar</systemPath>
         </dependency>
+        <dependency>
+            <groupId>sqlite</groupId>
+            <artifactId>org.sample</artifactId>
+            <version>3.16.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/sqlite-jdbc-3.16.1.jar</systemPath>
+        </dependency>
     </dependencies>
 
     <properties>
