@@ -5,11 +5,11 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-/*import org.openqa.selenium.By;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;*/
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -593,7 +593,7 @@ public class ApiController {
     }
 
 
-    /*
+
     @RequestMapping(value = "/convertirTexto2", method = POST)
     @ResponseBody
     public String convertirTexto2(@RequestBody String body, String puntuacion, String sinonimos, String pasivas)
@@ -733,7 +733,7 @@ public class ApiController {
         return nuevoTexto;
     }
 
-*/
+
 
     public static ArrayList<Palabra> cambiaPuntuacion(ArrayList<Palabra> palabras)
     {
@@ -961,7 +961,7 @@ public class ApiController {
         return tipo;
     }
 
-/*
+
     //Llama a freeling para obtener el etiquetado gramatical(pos tagging) de una serie de palabras en un texto
     public static ArrayList<Palabra> llamaFreeling(String texto) {
 
@@ -1049,7 +1049,7 @@ public class ApiController {
 
         return palabras;
     }
-*/
+
     //Devuelve la definicion de una palabra en wordreference
     public static String significadoDiccionario(String palabra) {
         String resultado="";
