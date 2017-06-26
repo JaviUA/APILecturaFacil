@@ -1,5 +1,6 @@
 package hello;
 
+
 import org.apache.commons.lang3.StringUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -10,6 +11,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -963,15 +965,18 @@ public class ApiController {
 
 
     //Llama a freeling para obtener el etiquetado gramatical(pos tagging) de una serie de palabras en un texto
-    public static ArrayList<Palabra> llamaFreeling(String texto) {
+   public static ArrayList<Palabra> llamaFreeling(String texto) {
+
 
         WebDriver driver = new HtmlUnitDriver();
+
+
         ArrayList<Palabra> palabras=new ArrayList<Palabra>();
         // And now use this to visit Google
         driver.get("http://nlp.lsi.upc.edu/freeling/demo/demo.php");
         WebElement element = driver.findElement(By.name("frase"));
 
-        //System.out.println(element.getText());
+        System.out.println(element.getText());
         element.clear();
         element.sendKeys(texto);
         //System.out.println(element.getText());
