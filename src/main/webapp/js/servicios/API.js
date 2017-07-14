@@ -107,7 +107,7 @@ module.exports  = {
                })
     },
     calcularComplejidadModificado: function (palabras) {
-      return fetch(this.API_URL+'http://localhost:8080/api/calcularComplejidadModificado', {
+      return fetch(this.API_URL+'/calcularComplejidadModificado', {
                    method: 'POST',
                    headers: {
                        'Content-type':'application/json'
