@@ -17,7 +17,7 @@ module.exports = React.createClass({
     },
     modificaContextos: function (resultado) {
      
-      alert(resultado);
+    
      this.setState({contextos:resultado})
     },
     clickContextos : function () {

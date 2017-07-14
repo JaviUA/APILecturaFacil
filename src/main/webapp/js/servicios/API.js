@@ -1,6 +1,6 @@
 
 module.exports  = {
-    API_URL : 'http://localhost:3000/api/items',
+    API_URL : 'https://applecturafacilrest.herokuapp.com/api',
     obtenerItems: function () {
         return fetch(this.API_URL)
             .then(function(response) {
@@ -27,14 +27,14 @@ module.exports  = {
                })
     },
     getSignificado: function (pal) {
-        return fetch('http://localhost:8080/api/significado2?palabra='+pal)
+        return fetch(this.API_URL+'/significado2?palabra='+pal)
             .then(function(response) {
                 if (response.ok)
                     return response.json()
             })
     },
     convertirTexto: function (texto) {
-      return fetch('http://localhost:8080/api/convertirTexto', {
+      return fetch(this.API_URL+'/convertirTexto', {
                    method: 'POST',
                    headers: {
                        'Content-type':'application/json'
@@ -52,7 +52,7 @@ module.exports  = {
                })
     },
      convertirTexto2: function (texto, punt, sin, pas, comp) {
-      return fetch('http://localhost:8080/api/convertirTexto2?puntuacion='+punt+'&sinonimos='+sin+'&pasivas='+pas+'&complejidad='+comp, {
+      return fetch(this.API_URL+'/convertirTexto2?puntuacion='+punt+'&sinonimos='+sin+'&pasivas='+pas+'&complejidad='+comp, {
                    method: 'POST',
                    headers: {
                        'Content-type':'application/json'
@@ -71,7 +71,7 @@ module.exports  = {
                })
     },
     calcularComplejidad: function (texto) {
-      return fetch('http://localhost:8080/api/calcularComplejidad', {
+      return fetch(this.API_URL+'/calcularComplejidad', {
                    method: 'POST',
                    headers: {
                        'Content-type':'application/json'
@@ -83,7 +83,7 @@ module.exports  = {
                })
     },
     calcularContextos: function (texto) {
-      return fetch('http://localhost:8080/api/calcularContextos', {
+      return fetch(this.API_URL+'/calcularContextos', {
                    method: 'POST',
                    headers: {
                        'Content-type':'application/json'
@@ -95,7 +95,7 @@ module.exports  = {
                })
     },
     calcularContextosModificado: function (palabras) {
-      return fetch('http://localhost:8080/api/calcularContextosModificado', {
+      return fetch(this.API_URL+'/calcularContextosModificado', {
                    method: 'POST',
                    headers: {
                        'Content-type':'application/json'
@@ -107,7 +107,7 @@ module.exports  = {
                })
     },
     calcularComplejidadModificado: function (palabras) {
-      return fetch('http://localhost:8080/api/calcularComplejidadModificado', {
+      return fetch(this.API_URL+'http://localhost:8080/api/calcularComplejidadModificado', {
                    method: 'POST',
                    headers: {
                        'Content-type':'application/json'

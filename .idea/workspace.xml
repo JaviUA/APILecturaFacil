@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1422ba3f-6c9e-4094-a80e-a36274a587b1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/config/WebConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hello/Complejidad.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hello/Texto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/DetallesItem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/Item.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/Lista.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/MiComponente.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/NuevoItem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/servicios/API.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/servicios/EventBus.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hello/ApiController.class" afterPath="$PROJECT_DIR$/target/classes/hello/ApiController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hello/Contexto.class" afterPath="$PROJECT_DIR$/target/classes/hello/Contexto.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hello/Palabra.class" afterPath="$PROJECT_DIR$/target/classes/hello/Palabra.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hello/ApiController.java" afterPath="$PROJECT_DIR$/src/main/java/hello/ApiController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hello/Contexto.java" afterPath="$PROJECT_DIR$/src/main/java/hello/Contexto.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hello/Palabra.java" afterPath="$PROJECT_DIR$/src/main/java/hello/Palabra.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/bundle.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/bundle.js.map" afterPath="$PROJECT_DIR$/src/main/webapp/js/bundle.js.map" />
     </list>
     <ignored path="gs-rest-service.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -169,7 +148,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#174#175#0" expanded="false" />
+                <element signature="e#205#206#0" expanded="false" />
+                <element signature="e#412#413#0" expanded="false" />
+                <element signature="e#452#453#0" expanded="false" />
+                <element signature="e#484#485#0" expanded="false" />
+                <element signature="e#512#513#0" expanded="false" />
+                <element signature="e#554#555#0" expanded="false" />
+                <element signature="e#588#589#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -861,7 +849,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -874,7 +862,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5025" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17609255" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20223153" sideWeight="0.4975" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50627613" sideWeight="0.4975" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1355,7 +1343,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#174#175#0" expanded="false" />
+            <element signature="e#205#206#0" expanded="false" />
+            <element signature="e#412#413#0" expanded="false" />
+            <element signature="e#452#453#0" expanded="false" />
+            <element signature="e#484#485#0" expanded="false" />
+            <element signature="e#512#513#0" expanded="false" />
+            <element signature="e#554#555#0" expanded="false" />
+            <element signature="e#588#589#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

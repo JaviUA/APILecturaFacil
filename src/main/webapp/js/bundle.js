@@ -53,8 +53,8 @@
 	var ReactDOM = __webpack_require__(/*! react-dom */ 32);
 	
 	var Calculos = __webpack_require__(/*! ./Calculos */ 212);
-	var Opciones = __webpack_require__(/*! ./Opciones */ 216);
-	var NuevoItem = __webpack_require__(/*! ./NuevoItem */ 217);
+	var Opciones = __webpack_require__(/*! ./Opciones */ 217);
+	var NuevoItem = __webpack_require__(/*! ./NuevoItem */ 218);
 	
 	ReactDOM.render(React.createElement(Opciones, null), document.getElementById('componenteOpciones'));
 	ReactDOM.render(React.createElement(NuevoItem, null), document.getElementById('componenteNuevoItem'));
@@ -26601,7 +26601,7 @@
 	var React = __webpack_require__(/*! react */ 1);
 	var API_lista = __webpack_require__(/*! ./servicios/API */ 213);
 	var EventBus = __webpack_require__(/*! ./servicios/EventBus */ 214);
-	var Contexto = __webpack_require__(/*! ./Contexto */ 220);
+	var Contexto = __webpack_require__(/*! ./Contexto */ 216);
 	
 	module.exports = React.createClass({
 	  displayName: 'exports',
@@ -26618,7 +26618,6 @@
 	  },
 	  modificaContextos: function modificaContextos(resultado) {
 	
-	    alert(resultado);
 	    this.setState({ contextos: resultado });
 	  },
 	  clickContextos: function clickContextos() {
@@ -26736,7 +26735,7 @@
 	'use strict';
 	
 	module.exports = {
-	    API_URL: 'http://localhost:3000/api/items',
+	    API_URL: 'https://applecturafacilrest.herokuapp.com/api',
 	    obtenerItems: function obtenerItems() {
 	        return fetch(this.API_URL).then(function (response) {
 	            if (response.ok) return response.json();
@@ -26758,12 +26757,12 @@
 	        });
 	    },
 	    getSignificado: function getSignificado(pal) {
-	        return fetch('http://localhost:8080/api/significado2?palabra=' + pal).then(function (response) {
+	        return fetch(this.API_URL + '/significado2?palabra=' + pal).then(function (response) {
 	            if (response.ok) return response.json();
 	        });
 	    },
 	    convertirTexto: function convertirTexto(texto) {
-	        return fetch('http://localhost:8080/api/convertirTexto', {
+	        return fetch(this.API_URL + '/convertirTexto', {
 	            method: 'POST',
 	            headers: {
 	                'Content-type': 'application/json'
@@ -26778,7 +26777,7 @@
 	        });
 	    },
 	    convertirTexto2: function convertirTexto2(texto, punt, sin, pas, comp) {
-	        return fetch('http://localhost:8080/api/convertirTexto2?puntuacion=' + punt + '&sinonimos=' + sin + '&pasivas=' + pas + '&complejidad=' + comp, {
+	        return fetch(this.API_URL + '/convertirTexto2?puntuacion=' + punt + '&sinonimos=' + sin + '&pasivas=' + pas + '&complejidad=' + comp, {
 	            method: 'POST',
 	            headers: {
 	                'Content-type': 'application/json'
@@ -26794,7 +26793,7 @@
 	        });
 	    },
 	    calcularComplejidad: function calcularComplejidad(texto) {
-	        return fetch('http://localhost:8080/api/calcularComplejidad', {
+	        return fetch(this.API_URL + '/calcularComplejidad', {
 	            method: 'POST',
 	            headers: {
 	                'Content-type': 'application/json'
@@ -26805,7 +26804,7 @@
 	        });
 	    },
 	    calcularContextos: function calcularContextos(texto) {
-	        return fetch('http://localhost:8080/api/calcularContextos', {
+	        return fetch(this.API_URL + '/calcularContextos', {
 	            method: 'POST',
 	            headers: {
 	                'Content-type': 'application/json'
@@ -26816,7 +26815,7 @@
 	        });
 	    },
 	    calcularContextosModificado: function calcularContextosModificado(palabras) {
-	        return fetch('http://localhost:8080/api/calcularContextosModificado', {
+	        return fetch(this.API_URL + '/calcularContextosModificado', {
 	            method: 'POST',
 	            headers: {
 	                'Content-type': 'application/json'
@@ -26827,7 +26826,7 @@
 	        });
 	    },
 	    calcularComplejidadModificado: function calcularComplejidadModificado(palabras) {
-	        return fetch('http://localhost:8080/api/calcularComplejidadModificado', {
+	        return fetch(this.API_URL + 'http://localhost:8080/api/calcularComplejidadModificado', {
 	            method: 'POST',
 	            headers: {
 	                'Content-type': 'application/json'
@@ -27353,6 +27352,37 @@
 /***/ }),
 /* 216 */
 /*!****************************************!*\
+  !*** ./src/main/webapp/js/Contexto.js ***!
+  \****************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	var React = __webpack_require__(/*! react */ 1);
+	var API = __webpack_require__(/*! ./servicios/API */ 213);
+	var EventBus = __webpack_require__(/*! ./servicios/EventBus */ 214);
+	
+	module.exports = React.createClass({
+	    displayName: 'exports',
+	
+	    verSignificado: function verSignificado() {},
+	    render: function render() {
+	
+	        return React.createElement(
+	            'li',
+	            { className: 'list-group-item' },
+	            ' ',
+	            this.props.nom,
+	            ': ',
+	            this.props.val,
+	            ' '
+	        );
+	    }
+	});
+
+/***/ }),
+/* 217 */
+/*!****************************************!*\
   !*** ./src/main/webapp/js/Opciones.js ***!
   \****************************************/
 /***/ (function(module, exports, __webpack_require__) {
@@ -27552,7 +27582,7 @@
 	});
 
 /***/ }),
-/* 217 */
+/* 218 */
 /*!*****************************************!*\
   !*** ./src/main/webapp/js/NuevoItem.js ***!
   \*****************************************/
@@ -27563,8 +27593,8 @@
 	var React = __webpack_require__(/*! react */ 1);
 	var API = __webpack_require__(/*! ./servicios/API */ 213);
 	var EventBus = __webpack_require__(/*! ./servicios/EventBus */ 214);
-	var Palabra = __webpack_require__(/*! ./Palabra */ 218);
-	var Significado = __webpack_require__(/*! ./Significado */ 219);
+	var Palabra = __webpack_require__(/*! ./Palabra */ 219);
+	var Significado = __webpack_require__(/*! ./Significado */ 220);
 	
 	var NuevoItemComponente = React.createClass({
 	  displayName: 'NuevoItemComponente',
@@ -27768,7 +27798,7 @@
 	module.exports = NuevoItemComponente;
 
 /***/ }),
-/* 218 */
+/* 219 */
 /*!***************************************!*\
   !*** ./src/main/webapp/js/Palabra.js ***!
   \***************************************/
@@ -27833,7 +27863,7 @@
 	});
 
 /***/ }),
-/* 219 */
+/* 220 */
 /*!*******************************************!*\
   !*** ./src/main/webapp/js/Significado.js ***!
   \*******************************************/
@@ -27856,37 +27886,6 @@
 	            this.props.texto,
 	            ' ',
 	            React.createElement('br', null)
-	        );
-	    }
-	});
-
-/***/ }),
-/* 220 */
-/*!****************************************!*\
-  !*** ./src/main/webapp/js/Contexto.js ***!
-  \****************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	var React = __webpack_require__(/*! react */ 1);
-	var API = __webpack_require__(/*! ./servicios/API */ 213);
-	var EventBus = __webpack_require__(/*! ./servicios/EventBus */ 214);
-	
-	module.exports = React.createClass({
-	    displayName: 'exports',
-	
-	    verSignificado: function verSignificado() {},
-	    render: function render() {
-	
-	        return React.createElement(
-	            'li',
-	            { className: 'list-group-item' },
-	            ' ',
-	            this.props.nom,
-	            ': ',
-	            this.props.val,
-	            ' '
 	        );
 	    }
 	});
