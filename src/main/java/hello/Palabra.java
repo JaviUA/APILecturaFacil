@@ -8,6 +8,24 @@ public class Palabra
     private String tipo;
     private String pos;
     private String palabra;
+    private String gen;
+    private String num;
+
+    public String getNum() {
+        return num;
+    }
+
+    public void setNum(String num) {
+        this.num = num;
+    }
+
+    public String getGen() {
+        return gen;
+    }
+
+    public void setGen(String gen) {
+        this.gen = gen;
+    }
 
     public String getPos() {
         return pos;
@@ -17,13 +35,17 @@ public class Palabra
         this.pos = pos;
     }
 
-    public Palabra(String tipo, String pos, String palabra) {
+    public Palabra(String num,String gen, String tipo, String pos, String palabra) {
+        this.num=num;
+        this.gen=gen;
         this.tipo = tipo;
         this.pos = pos;
         this.palabra = palabra;
     }
 
 
+    public Palabra() {
+    }
 
     public String getTipo() {
         return tipo;
@@ -32,6 +54,18 @@ public class Palabra
     public Palabra(String tipo, String palabra) {
         this.tipo = tipo;
         this.palabra = palabra;
+        this.num="undefined";
+        this.gen="undefined";
+        this.tipo = tipo;
+        this.pos = "undefined";
+    }
+    public Palabra(String tipo, String pos, String palabra) {
+        this.tipo = tipo;
+        this.palabra = palabra;
+        this.num="undefined";
+        this.gen="undefined";
+        this.tipo = tipo;
+        this.pos = pos;
     }
 
     public void setTipo(String tipo) {

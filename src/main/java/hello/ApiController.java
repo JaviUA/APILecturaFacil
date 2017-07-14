@@ -22,6 +22,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
+import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.regex.Matcher;
@@ -30,14 +31,11 @@ import java.util.regex.Pattern;
 import static org.springframework.web.bind.annotation.RequestMethod.POST;
 
 @RestController
+@RequestMapping("/api")
 public class ApiController {
 
 
-    @RequestMapping("/")
-    @ResponseBody
-    String home() {
-        return "Hello World!";
-    }
+
 
     @RequestMapping(value = "/calcularContextos", method = POST)
     @ResponseBody
@@ -46,7 +44,7 @@ public class ApiController {
 
         ArrayList<Contexto> contextos = new ArrayList<Contexto>();
 
-
+        System.out.println("Calcular contextos de: "+body);
         Connection c = null;
         Statement stmt = null;
         try {
@@ -136,6 +134,7 @@ public class ApiController {
             stmt.close();
             c.commit();
             c.close();
+            System.out.println("Cierra database");
         } catch (Exception e) {
             System.err.println(e.getClass().getName() + ": " + e.getMessage());
             System.exit(0);
@@ -148,21 +147,45 @@ public class ApiController {
         return contextos;
     }
 
+    @RequestMapping(value = "/calcularContextosModificado", method = POST)
+    @ResponseBody
+    public ArrayList<Contexto> calcularContextosModificado(@RequestBody ArrayList<Palabra> palabras) {
+
+        String texto=devuelveFrase(palabras);
+        ArrayList<Contexto> contextos=calcularContextos(texto);
+
+        return contextos;
+    }
+
     @RequestMapping(value = "/calcularComplejidad", method = POST)
     @ResponseBody
     public int calcularComplejidad(@RequestBody String body)
     {
 
+      return calcularComplejidadSimple(body);
+    }
+
+    @RequestMapping(value = "/calcularComplejidadModificado", method = POST)
+    @ResponseBody
+    public int calcularComplejidad(@RequestBody ArrayList<Palabra> palabras)
+    {
+          String texto=devuelveFrase(palabras);
+         texto= texto.replace("|","\n").replace(".",".\n");
+        return calcularComplejidadSimple(texto);
+    }
+
+    public int calcularComplejidadSimple(String texto)
+    {
         double numComas = 0;
         double numPuntosAparte = 0;
         double numPalTriPoli = 0;
         double numPuntos = 0;
         double numPalabras = 0;
 
-        String aux = body.replace("\n", "");
-        numPuntosAparte = body.length() - aux.length();
+        String aux = texto.replace("\n", "");
+        numPuntosAparte = texto.length() - aux.length();
 
-        String[] palabras = body.replace("\n"," ").split(" ");
+        String[] palabras = texto.replace("\n"," ").split(" ");
         numPalabras = palabras.length;
 
         double contador;
@@ -191,12 +214,12 @@ public class ApiController {
         }
 
         double numFrases=numComas+numPuntos;
-         numPuntosAparte++;
+        numPuntosAparte++;
 
-        System.out.println(numPuntosAparte);
-        System.out.println(numPalabras);
-        System.out.println(numComas);
-        System.out.println(numFrases);
+        System.out.println("Puntos aparte: " +numPuntosAparte);
+        System.out.println("Palabras: "+numPalabras);
+        System.out.println("Comas: "+numComas);
+        System.out.println("Frases: "+numFrases);
 
         double x1 = ((numComas * 100) / numPalabras) * 10;
         double x2 = ((numPuntosAparte * 100) / numPalabras) * 10;
@@ -209,7 +232,6 @@ public class ApiController {
 
         return res;
     }
-
 
     @RequestMapping(value = "/significado", method = POST)
     @ResponseBody
@@ -294,15 +316,18 @@ public class ApiController {
 
     @RequestMapping(value = "/significado2")
     @ResponseBody
-    public String devuelveSignificado2( String palabra) {
+    public ArrayList<Significado> devuelveSignificado2( String palabra) {
 
-       String significado= significadoDiccionarioFacil(palabra);
-       if(significado.equals(""))
+        ArrayList<Significado> significados;
+        System.out.println("Buscando palabra: "+palabra);
+
+       significados= significadoDiccionarioFacil(palabra);
+       if(significados.isEmpty())
        {
-           significado=significadoDiccionario(palabra);
+           significados=significadoDiccionario(palabra);
        }
 
-      return significado;
+      return significados;
     }
 
     public boolean esArticulo(String texto) {
@@ -326,7 +351,7 @@ public class ApiController {
 
     @RequestMapping(value = "/convertirTexto", method = POST)
     @ResponseBody
-    public String convertirTexto(@RequestBody String body) {
+    public Texto convertirTexto(@RequestBody String body) {
 
 
         Boolean introdPunto=false;
@@ -590,21 +615,38 @@ public class ApiController {
 
         }
 
-
-        return nuevoTexto.replace(".", ".\n");
+       ArrayList<Palabra> pals=separaPalabras(nuevoTexto);
+       Texto texto=new Texto();
+       texto.setPalabras(pals);
+        return texto;
     }
 
 
 
     @RequestMapping(value = "/convertirTexto2", method = POST)
     @ResponseBody
-    public String convertirTexto2(@RequestBody String body, String puntuacion, String sinonimos, String pasivas)
+    public Texto convertirTexto2(@RequestBody String body, boolean puntuacion, boolean sinonimos, boolean pasivas, boolean complejidad, boolean contextos)
     {
 
 
+        Texto texto=new Texto();
+        int compAntes=0;
+
+        if(complejidad)
+        {
+           compAntes=calcularComplejidadSimple(body);
+        }
+
+        if(contextos)
+        {
+            texto.setContextos(calcularContextos(body));
+        }
+
         String nuevoTexto="";
         body=body.replace(";", ",").replace("{", "(").replace("}", ")").replace("&", "y").replace("%", " por ciento");
+        System.out.println(body);
         body=body.replace("\n", "|");
+        System.out.println("cuerpo: "+body);
         ArrayList<Palabra> palabras= new ArrayList<Palabra>();
 
 
@@ -618,7 +660,7 @@ public class ApiController {
         }
 
 
-        if(sinonimos.equals("s"))
+        if(sinonimos)
         {
 
             for(int i=0;i<palabras.size();i++)
@@ -626,33 +668,54 @@ public class ApiController {
                 if(palabras.get(i).getPos().equals("noun") || palabras.get(i).getPos().equals("adjective"))
                 {
                     Palabra nueva=palabras.get(i);
-                    nueva.setPalabra(cambiaSinonimo(palabras.get(i).getPalabra()));
-                    palabras.set(i,nueva);
+                    String cambiada=cambiaSinonimo(palabras.get(i).getPalabra());
+
+
+                    if(!cambiada.equals(nueva.getPalabra()))
+                    {
+
+                        if(palabras.get(i).getPos().equals("adjective") && i>0 &&palabras.get(i).getGen().equals("common")) //Cuando el adjetivo no contiene género
+                        {
+                           if(palabras.get(i-1).getPos().equals("noun"))
+                           {
+                               nueva.setGen(palabras.get(i-1).getGen()); //Se añade el género del sustantivo anterior
+                               cambiada = cambiaFlexion(cambiada, nueva);
+                               nueva.setPalabra(cambiada);
+                               palabras.set(i, nueva);
+                           }
+                        }
+                        else
+                        {
+                            cambiada = cambiaFlexion(cambiada, nueva);
+                            nueva.setPalabra(cambiada);
+                            palabras.set(i, nueva);
+                        }
+
+                    }
+
                 }
 
             }
         }
 
-        if(puntuacion.equals("s"))
+        if(puntuacion)
         {
             palabras=cambiaPuntuacion(palabras);
         }
 
         nuevoTexto=devuelveFrase(palabras);
 
-        if(pasivas.equals("s"))
+        if(pasivas)
         {
 
             String frases[]=nuevoTexto.split("\\.");
             nuevoTexto="";
+            boolean paragrafo=false;
+
             for(int j=0;j<frases.length;j++)
             {
                 String frase=frases[j];
-                if(frase.contains("|"))
-                {
-                    frase=frase.replace("|","");
-                    nuevoTexto=nuevoTexto+'\n';
-                }
+
                 String pals[]=frase.split(" ");
                 String vSer="";
                 boolean precedidaSer=false;
@@ -703,6 +766,13 @@ public class ApiController {
                 {
 
                     System.out.println("Unica frase: "+frase);
+                    paragrafo=false;
+
+                    if(frase.endsWith("|")) //Guardar simbolo para salto
+                    {
+                        frase.replace("|","");
+                        paragrafo=true;
+                    }
 
                     if(!frase.startsWith(" "))
                     {
@@ -718,8 +788,10 @@ public class ApiController {
 
                     frase=cambiaActiva(frase, url, vSer);
                     System.out.println("Frase obtenidad: "+frase);
-                    frase=Character.toUpperCase(frase.charAt(0))+frase.substring(1,frase.length()); //Cambiar la primera letra a mayúscula
+                    frase=" "+Character.toUpperCase(frase.charAt(0))+frase.substring(1,frase.length()); //Cambiar la primera letra a mayúscula
 
+                    if(paragrafo)
+                        frase=frase+"|";
                 }
 
                 nuevoTexto=nuevoTexto+frase+".";
@@ -728,14 +800,63 @@ public class ApiController {
         }
 
 
+        System.out.println("Obtenido al final"+nuevoTexto);
+
+        ArrayList<Palabra> pals=separaPalabras(nuevoTexto);
 
 
-        nuevoTexto=nuevoTexto.replace("|","\n").replace(".",".\n");
+        if(complejidad)
+        {
+            Complejidad comp=new Complejidad(compAntes,calcularComplejidad(pals));
+            texto.setComplejidad(comp);
+        }
+        else
+        {
+            texto.setComplejidad(new Complejidad());
+        }
 
-        return nuevoTexto;
+        texto.setPalabras(pals);
+
+        return texto;
     }
 
 
+
+    public static ArrayList<Palabra> separaPalabras(String texto)
+    {
+        ArrayList<Palabra> palabrasArray=new ArrayList<Palabra>();
+
+        texto=texto.replace("."," .").replace(","," ,").replace("|", " |");
+        String[] palabras=texto.split(" ");
+        Palabra pal;
+        pal=new Palabra("first",palabras[0]);
+        palabrasArray.add(pal);
+        for(int i=1;i<palabras.length;i++)
+        {
+            switch(palabras[i])
+            {
+                case ",":
+                    pal=new Palabra("comma",palabras[i]);
+                    palabrasArray.add(pal);
+                    break;
+                case ".":
+                    pal=new Palabra("period",palabras[i]);
+                    palabrasArray.add(pal);
+                    break;
+                case "|":
+                    pal=new Palabra("other",palabras[i]);
+                    palabrasArray.add(pal);
+                    break;
+                default:
+                    pal=new Palabra("common",palabras[i]);
+                    palabrasArray.add(pal);
+                    break;
+
+            }
+        }
+        return palabrasArray;
+
+    }
 
     public static ArrayList<Palabra> cambiaPuntuacion(ArrayList<Palabra> palabras)
     {
@@ -843,7 +964,7 @@ public class ApiController {
                         if(despuesPunto) //añadir mayúscula despues de punto
                         {
                             pal=palabras.get(i).getPalabra();
-                            frase = frase + Character.toUpperCase(pal.charAt(0))+pal.substring(1, pal.length());
+                            frase = frase + " "+Character.toUpperCase(pal.charAt(0))+pal.substring(1, pal.length());
                         }
                         else
                         {
@@ -862,7 +983,7 @@ public class ApiController {
                         if(despuesPunto) //añadir mayúscula despues de punto
                         {
                             pal=palabras.get(i).getPalabra();
-                            frase = frase + Character.toUpperCase(pal.charAt(0))+pal.substring(1, pal.length());
+                            frase = frase + " "+ Character.toUpperCase(pal.charAt(0))+pal.substring(1, pal.length());
                         }
                         else
                         {
@@ -882,21 +1003,25 @@ public class ApiController {
         return frase;
     }
 
+
     public static String cambiaSinonimo(String palabra)
     {
         String resultado="";
         String sinonimo=palabra;
         try {
 
-            Document doc = Jsoup.connect("http://www.wordreference.com/definicion/"+palabra).get();
+            Document doc;
+            int veces=0;
+            Elements elems;
 
 
-            Elements elems=doc.getElementsByClass("entry");
-            for(Element el: elems)
-            {
-                resultado=resultado+el.html();
-            }
-            int veces= StringUtils.countMatches(resultado,"<li>");
+                doc = Jsoup.connect("http://www.wordreference.com/definicion/" + palabra).get();
+
+                elems = doc.getElementsByClass("entry");
+                for (Element el : elems) {
+                    resultado = resultado + el.html();
+                }
+                veces = StringUtils.countMatches(resultado, "<li>");
 
             //Si la palabra contiene un solo significado
             if(veces==1) {
@@ -937,7 +1062,89 @@ public class ApiController {
         return sinonimo;
     }
 
+    public static String cambiaFlexion(String cambiada, Palabra original)
+    {
+        String resultado="";
+        System.out.println("Palabra que se quiere modificar: "+original.getPalabra());
+        try {
 
+            Document doc = Jsoup.connect("http://www.wordreference.com/definicion/"+cambiada).get();
+
+
+            Elements elems=doc.select("#articleHead");
+            for(Element el: elems)
+            {
+                resultado=resultado+el.html();
+            }
+            System.out.println(resultado);
+            if(resultado.contains("<strong>Inflexiones</strong>")) {
+                String r2[] = resultado.split("<strong>Inflexiones</strong>");
+
+                System.out.println(r2[1]);
+
+                String inflexiones = r2[1].replace("</span>:", "inflexion").replace("\n", "");
+                System.out.println(inflexiones);
+
+                Pattern p = Pattern.compile("^*.finflexion (\\S+).*.mplinflexion (\\S+).*.fplinflexion (\\S+)");//Cualquier inflexión posible
+                Pattern p2 = Pattern.compile("^*.(\\w)plinflexion (\\S+)"); //Un solo género posible
+                Pattern p3 = Pattern.compile("^*.plinflexion (\\S+)"); //Solo plural, no tiene género
+                Matcher matcher = p.matcher(inflexiones);
+                Matcher matcher2 = p2.matcher(inflexiones);
+                Matcher matcher3 = p3.matcher(inflexiones);
+
+                //System.out.println(resultado);
+                if (matcher.find()) {
+
+
+                    String f = matcher.group(1).replace(",", "");
+                    String mpl = matcher.group(2).replace(",", "");
+                    String fpl = matcher.group(3).replace("<br>", "").replace("<div", "");
+
+                    if (original.getGen().equals("feminine")) {
+                        if (original.getNum().equals("plural")) {
+                            cambiada = fpl;
+                        } else {
+                            cambiada = f;
+                        }
+                    } else if (original.getNum().equals("plural")) {
+                        cambiada = mpl;
+                    }
+
+                    System.out.println("Fem: " + f + " MPL: " + mpl + " FPL: " + fpl);
+                } else if (matcher2.find()) {
+                    String gen = matcher2.group(1);
+                    String pl = matcher2.group(2).replace("<br>","").replace("<div","");
+                    System.out.println("Genero encontrado: " + gen);
+                    if (original.getGen().startsWith(gen)) {
+                        if (original.getNum().equals("plural")) {
+                            cambiada = pl;
+                        }
+                    } else //El género no concuerda, volvemos a introducir la original
+                    {
+                        cambiada = original.getPalabra();
+                    }
+                    System.out.println("PL: " + pl);
+                } else if (matcher3.find()) {
+                    String pl = matcher3.group(1).replace("<br>", "").replace("<div","");;
+                    if (original.getNum().equals("plural")) {
+                        cambiada = pl;
+                    }
+                }
+
+            } else
+            {
+                cambiada=original.getPalabra();
+            }
+
+
+        } catch (IOException e) {
+
+           e.printStackTrace();
+
+        }
+
+        return cambiada;
+    }
 
     //Llama a wordreference para devolver el tipo de palabra
     public static String llamaDiccionario(String palabra) {
@@ -1000,6 +1207,7 @@ public class ApiController {
         String frase="";
         String token="";
 
+        Pattern p0 = Pattern.compile("^*.token begin=(\\S+).*.end=(\\S+).*.gen=(\\S+).*.num=(\\S+).*.pos=(\\S+).*.type=(\\S+)");
         Pattern p = Pattern.compile("^*.token begin=(\\S+).*.end=(\\S+).*.pos=(\\S+).*.type=(\\S+)");
         Pattern p2 = Pattern.compile("^*.token begin=(\\S+).*.end=(\\S+).*.pos=(\\S+)");
         for(int i=0;i<frases.length-1;i++)
@@ -1014,21 +1222,32 @@ public class ApiController {
                 token=tokens[j];
                 String[] token2=token.split("\\<morpho\\>");
 
+                Matcher matcher0 = p0.matcher(token2[0]);
                 Matcher matcher = p.matcher(token2[0]);
                 Matcher matcher2 = p2.matcher(token2[0]);
 
                 System.out.println("Token2: "+token2[0]);
-                if(matcher.find()) {
+
+                if(matcher0.find()) {
+
+                    int begin=Integer.parseInt(matcher0.group(1).replace("\\\"",""));
+                    int end=Integer.parseInt(matcher0.group(2).replace("\\\"",""));
+                    String gen=matcher0.group(3).replace("\\\"","");
+                    String num=matcher0.group(4).replace("\\\"","");
+                    String pos=matcher0.group(5).replace("\\\"","");
+                    String tipo=matcher0.group(6).replace("\\\"","").replace(">\\n","");
+
+
+                    Palabra pal=new Palabra(num, gen,tipo, pos, texto.substring(begin,end));
+                    palabras.add(pal);
+                }
+                else if(matcher.find()) {
 
                     int begin=Integer.parseInt(matcher.group(1).replace("\\\"",""));
                     int end=Integer.parseInt(matcher.group(2).replace("\\\"",""));
                     String pos=matcher.group(3).replace("\\\"","");
                     String tipo=matcher.group(4).replace("\\\"","").replace(">\\n","");
 
-                    System.out.println("Begin: " + matcher.group(1).replace("\\\"",""));
-                    System.out.println("End: " + matcher.group(2).replace("\\\"",""));
-                    System.out.println("Pos: " + matcher.group(3).replace("\\\"",""));
-                    System.out.println("Type: " + matcher.group(4).replace("\\\"","").replace(">\\n",""));
 
                     Palabra pal=new Palabra(tipo, pos, texto.substring(begin,end));
                     palabras.add(pal);
@@ -1038,7 +1257,7 @@ public class ApiController {
                     int end=Integer.parseInt(matcher2.group(2).replace("\\\"",""));
                     String pos=matcher2.group(3).replace("\\\"","");
 
-                    Palabra pal=new Palabra("undefined", pos, texto.substring(begin,end));
+                    Palabra pal=new Palabra(pos, texto.substring(begin,end));
                     palabras.add(pal);
                 }
 
@@ -1056,8 +1275,9 @@ public class ApiController {
     }
 
     //Devuelve la definicion de una palabra en wordreference
-    public static String significadoDiccionario(String palabra) {
+    public static ArrayList<Significado> significadoDiccionario(String palabra) {
         String resultado="";
+        ArrayList<Significado> significados=new ArrayList<Significado>();
 
         try {
             Document doc = Jsoup.connect("http://www.wordreference.com/definicion/"+palabra).get();
@@ -1069,7 +1289,13 @@ public class ApiController {
                 resultado=resultado+el.html();
             }
 
+            String defs[]=resultado.split("</li>");
+            for(int i=0;i<defs.length;i++)
+            {
+                significados.add(new Significado("SignificadoWR",i+". "+Jsoup.parse(defs[i]).text()));
 
+            }
+           // resultado=Jsoup.parse(resultado).text();
 
 
 
@@ -1077,15 +1303,25 @@ public class ApiController {
             e.printStackTrace();
         }
 
-        return resultado;
+        return significados;
+    }
+
+    public static String deAccent(String str) {
+        String nfdNormalizedString = Normalizer.normalize(str,  Normalizer.Form.NFD);
+        Pattern pattern = Pattern.compile("\\p{InCombiningDiacriticalMarks}+");
+        return pattern.matcher(nfdNormalizedString).replaceAll("");
     }
 
     //Devuelve la definicion de una palabra en el diccionario de lectura fácil
-    public static String significadoDiccionarioFacil(String palabra) {
+    public static ArrayList<Significado> significadoDiccionarioFacil(String palabra) {
         String resultado="";
+        ArrayList<Significado> significados=new ArrayList<Significado>();
 
         char indice=Character.toUpperCase(palabra.charAt(0));
         try {
+
+
+            palabra=deAccent(palabra);
 
 
             Document doc = Jsoup.connect("http://diccionariofacil.org/diccionario/"+indice+"/"+palabra+".html").get();
@@ -1097,7 +1333,25 @@ public class ApiController {
                 resultado=resultado+el.html();
             }
 
+            if(resultado.equals(""))
+            {
+                doc = Jsoup.connect("http://diccionariofacil.org/diccionario/"+indice+"/"+palabra+"-1.html").get();
 
+
+                elems=doc.getElementsByClass("definicionContent");
+                for(Element el: elems)
+                {
+                    resultado=resultado+el.html();
+                }
+            }
+
+               String defs[]= resultado.split("<h4>");
+
+                for(int i=1;i<defs.length;i++)
+                {
+                    System.out.println(Jsoup.parse(defs[i]).text());
+                    significados.add(new Significado("SignificadoDF",Jsoup.parse(defs[i]).text()));
+                }
 
 
 
@@ -1105,7 +1359,7 @@ public class ApiController {
             e.printStackTrace();
         }
 
-        return resultado;
+        return significados;
     }
 
     public static String esParticipio(String texto) {
@@ -1368,7 +1622,8 @@ public class ApiController {
 
     public ArrayList<String> separaFreeling(String texto)
     {
-        texto=texto.replace("\n", "").replace("\r", "");
+        System.out.println("LLama separa freeling con texto: "+texto);
+        texto=texto.replace("\n", "").replace("\r", "").replace("||","|");
         String frases[]=texto.split("\\.");
 
         ArrayList<String> resultados=new ArrayList<String>();

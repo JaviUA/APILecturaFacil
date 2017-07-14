@@ -1,91 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/hello/ApiController.java" line="1090" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/hello/ApiController.java" line="1326" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1422ba3f-6c9e-4094-a80e-a36274a587b1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_example_mylib3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_3_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_phantomjsdriver_1_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_22.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_26.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_26.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_neko_htmlunit_2_25.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_2_15_v20160210.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_2_15_v20160210.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_3_v20170317.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_2_15_v20160210.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_3_v20170317.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_htmlunit_driver_2_26.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/client-combined-3.4.0-nodeps.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/cglib-nodep-3.2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/commons-codec-1.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/commons-exec-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/commons-io-2.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/commons-lang3-3.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/cssparser-0.9.22.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/gson-2.8.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/guava-21.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/hamcrest-core-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/htmlunit-2.26.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/htmlunit-core-js-2.26.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/htmlunit-driver-2.26.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/httpclient-4.5.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/httpcore-4.4.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/httpmime-4.5.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/javax.servlet-api-3.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/jetty-io-9.4.1.v20170120.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/jetty-util-9.4.1.v20170120.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/jna-4.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/jna-platform-4.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/junit-4.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/neko-htmlunit-2.25.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/phantomjsdriver-1.4.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/sac-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/serializer-2.7.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/websocket-api-9.4.3.v20170317.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/websocket-client-9.4.3.v20170317.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/websocket-common-9.4.3.v20170317.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/xalan-2.7.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/xercesImpl-2.11.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lib/xml-apis-1.4.01.jar" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/config/WebConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hello/Complejidad.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hello/Texto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/DetallesItem.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/Item.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/Lista.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/MiComponente.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/NuevoItem.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/servicios/API.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/servicios/EventBus.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hello/ApiController.class" afterPath="$PROJECT_DIR$/target/classes/hello/ApiController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hello/Contexto.class" afterPath="$PROJECT_DIR$/target/classes/hello/Contexto.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hello/Palabra.class" afterPath="$PROJECT_DIR$/target/classes/hello/Palabra.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gs-rest-service.iml" afterPath="$PROJECT_DIR$/gs-rest-service.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hello/ApiController.java" afterPath="$PROJECT_DIR$/src/main/java/hello/ApiController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hello/Contexto.java" afterPath="$PROJECT_DIR$/src/main/java/hello/Contexto.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hello/Palabra.java" afterPath="$PROJECT_DIR$/src/main/java/hello/Palabra.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
     </list>
     <ignored path="gs-rest-service.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -106,37 +48,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CustomComparator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hello/CustomComparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ApiController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/hello/ApiController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="978" column="8" lean-forward="false" selection-start-line="978" selection-start-column="8" selection-end-line="978" selection-end-column="8" />
+            <state relative-caret-position="310">
+              <caret line="156" column="25" lean-forward="false" selection-start-line="156" selection-start-column="25" selection-end-line="156" selection-end-column="25" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#calcularContextos#0;class#ApiController#0" expanded="false" />
-                <element signature="method#calcularComplejidad#0;class#ApiController#0" expanded="false" />
+                <element signature="e#1251#1261#0" expanded="true" />
                 <element signature="method#devuelveSignificado#0;class#ApiController#0" expanded="false" />
+                <element signature="e#8582#8595#0" expanded="true" />
+                <element signature="method#devuelveSignificado2#0;class#ApiController#0" expanded="false" />
                 <element signature="method#esArticulo#0;class#ApiController#0" expanded="false" />
                 <element signature="method#esPreposicion#0;class#ApiController#0" expanded="false" />
                 <element signature="method#esConjuncion#0;class#ApiController#0" expanded="false" />
                 <element signature="method#convertirTexto#0;class#ApiController#0" expanded="false" />
+                <element signature="e#28597#28606#0" expanded="true" />
                 <element signature="method#cambiaPuntuacion#0;class#ApiController#0" expanded="false" />
+                <element signature="e#29834#29843#0" expanded="true" />
                 <element signature="method#esCompleta#0;class#ApiController#0" expanded="false" />
                 <element signature="method#devuelveFrase#0;class#ApiController#0" expanded="false" />
                 <element signature="method#cambiaSinonimo#0;class#ApiController#0" expanded="false" />
+                <element signature="method#cambiaFlexion#0;class#ApiController#0" expanded="false" />
                 <element signature="method#llamaDiccionario#0;class#ApiController#0" expanded="false" />
+                <element signature="method#llamaFreeling#0;class#ApiController#0" expanded="false" />
                 <element signature="method#significadoDiccionario#0;class#ApiController#0" expanded="false" />
+                <element signature="e#44407#44420#0" expanded="true" />
                 <element signature="method#significadoDiccionarioFacil#0;class#ApiController#0" expanded="false" />
+                <element signature="e#45652#45665#0" expanded="true" />
+                <element signature="method#esParticipio#0;class#ApiController#0" expanded="false" />
+                <element signature="method#quitarFlexion#0;class#ApiController#0" expanded="false" />
                 <element signature="method#perteneceVSer#0;class#ApiController#0" expanded="false" />
                 <element signature="method#presenteVSer#0;class#ApiController#0" expanded="false" />
                 <element signature="method#imperfectoVSer#0;class#ApiController#0" expanded="false" />
@@ -144,72 +85,10 @@
                 <element signature="method#futuroVSer#0;class#ApiController#0" expanded="false" />
                 <element signature="method#condicionalVSer#0;class#ApiController#0" expanded="false" />
                 <element signature="method#pretperfVSer#0;class#ApiController#0" expanded="false" />
-                <marker date="1498498371519" expanded="false" signature="21831:21840" ph="&lt;~&gt;" />
-                <marker date="1498498371519" expanded="false" signature="33118:33127" ph="&lt;~&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="URLClassLoader.class" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_25/jre/lib/rt.jar!/java/net/URLClassLoader.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HtmlUnitDriver.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/htmlunit-driver/2.26/htmlunit-driver-2.26.jar!/org/openqa/selenium/htmlunit/HtmlUnitDriver.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
-              <folding>
-                <element signature="e#7591#7592#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SeparaSilabas.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hello/SeparaSilabas.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5049">
-              <caret line="305" column="9" lean-forward="false" selection-start-line="305" selection-start-column="9" selection-end-line="305" selection-end-column="9" />
-              <folding>
-                <element signature="e#123#124#0" expanded="false" />
-                <element signature="e#149#150#0" expanded="false" />
-                <element signature="e#178#179#0" expanded="false" />
-                <element signature="e#205#206#0" expanded="false" />
-                <element signature="e#635#636#0" expanded="false" />
-                <element signature="e#664#665#0" expanded="false" />
-                <element signature="e#710#711#0" expanded="false" />
-                <element signature="e#744#745#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Palabra.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hello/Palabra.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-              <folding>
-                <element signature="e#188#189#0" expanded="false" />
-                <element signature="e#214#215#0" expanded="false" />
-                <element signature="e#252#253#0" expanded="false" />
-                <element signature="e#282#283#0" expanded="false" />
-                <element signature="e#466#467#0" expanded="false" />
-                <element signature="e#493#494#0" expanded="false" />
-                <element signature="e#648#649#0" expanded="false" />
-                <element signature="e#680#681#0" expanded="false" />
-                <element signature="e#714#715#0" expanded="false" />
-                <element signature="e#744#745#0" expanded="false" />
-                <element signature="e#790#791#0" expanded="false" />
-                <element signature="e#828#829#0" expanded="false" />
+                <element signature="method#cambiaActiva#0;class#ApiController#0" expanded="false" />
+                <element signature="e#54861#54869#0" expanded="true" />
+                <marker date="1500054797016" expanded="false" signature="23337:23346" ph="&lt;~&gt;" />
+                <marker date="1500054797016" expanded="false" signature="40694:40703" ph="&lt;~&gt;" />
               </folding>
             </state>
           </provider>
@@ -218,20 +97,69 @@
       <file leaf-file-name="Contexto.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hello/Contexto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+            <state relative-caret-position="170">
+              <caret line="13" column="55" lean-forward="false" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Palabra.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hello/Palabra.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="46" column="2" lean-forward="false" selection-start-line="46" selection-start-column="2" selection-end-line="47" selection-end-column="5" />
               <folding>
-                <element signature="e#168#169#0" expanded="false" />
-                <element signature="e#196#197#0" expanded="false" />
-                <element signature="e#385#386#0" expanded="false" />
-                <element signature="e#419#420#0" expanded="false" />
-                <element signature="e#452#453#0" expanded="false" />
-                <element signature="e#481#482#0" expanded="false" />
-                <element signature="e#525#526#0" expanded="false" />
-                <element signature="e#561#562#0" expanded="false" />
-                <element signature="e#602#603#0" expanded="false" />
-                <element signature="e#645#646#0" expanded="false" />
+                <element signature="e#236#237#0" expanded="false" />
+                <element signature="e#262#263#0" expanded="false" />
+                <element signature="e#300#301#0" expanded="false" />
+                <element signature="e#330#331#0" expanded="false" />
+                <element signature="e#360#361#0" expanded="false" />
+                <element signature="e#386#387#0" expanded="false" />
+                <element signature="e#424#425#0" expanded="false" />
+                <element signature="e#454#455#0" expanded="false" />
+                <element signature="e#484#485#0" expanded="false" />
+                <element signature="e#510#511#0" expanded="false" />
+                <element signature="e#548#549#0" expanded="false" />
+                <element signature="e#578#579#0" expanded="false" />
+                <element signature="e#858#859#0" expanded="false" />
+                <element signature="e#885#886#0" expanded="false" />
+                <element signature="e#1394#1395#0" expanded="false" />
+                <element signature="e#1426#1427#0" expanded="false" />
+                <element signature="e#1460#1461#0" expanded="false" />
+                <element signature="e#1490#1491#0" expanded="false" />
+                <element signature="e#1536#1537#0" expanded="false" />
+                <element signature="e#1574#1575#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Texto.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hello/Texto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+              <folding>
+                <element signature="e#462#463#0" expanded="false" />
+                <element signature="e#493#494#0" expanded="false" />
+                <element signature="e#553#554#0" expanded="false" />
+                <element signature="e#593#594#0" expanded="false" />
+                <element signature="e#643#644#0" expanded="false" />
+                <element signature="e#675#676#0" expanded="false" />
+                <element signature="e#738#739#0" expanded="false" />
+                <element signature="e#780#781#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Complejidad.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hello/Complejidad.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -239,18 +167,9 @@
       <file leaf-file-name="Significado.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hello/Significado.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-              <folding>
-                <element signature="e#174#175#0" expanded="false" />
-                <element signature="e#205#206#0" expanded="false" />
-                <element signature="e#412#413#0" expanded="false" />
-                <element signature="e#452#453#0" expanded="false" />
-                <element signature="e#484#485#0" expanded="false" />
-                <element signature="e#512#513#0" expanded="false" />
-                <element signature="e#554#555#0" expanded="false" />
-                <element signature="e#588#589#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -258,11 +177,29 @@
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hello/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#293#294#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bundle.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bundle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373099">
+              <caret line="21947" column="36" lean-forward="false" selection-start-line="21947" selection-start-column="36" selection-end-line="21947" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2584">
+              <caret line="152" column="0" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -270,8 +207,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="53" column="30" lean-forward="false" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+            <state relative-caret-position="1853">
+              <caret line="109" column="39" lean-forward="false" selection-start-line="109" selection-start-column="39" selection-end-line="109" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -300,6 +237,17 @@
       <find>quita</find>
       <find>significado</find>
       <find>llamaFre</find>
+      <find>localhost</find>
+      <find>bund</find>
+      <find>ll</find>
+      <find>llega a</find>
+      <find>esenciales</find>
+      <find>cambiaFle</find>
+      <find>rótulos</find>
+      <find>\n</find>
+      <find>Un texto es una</find>
+      <find>cuerpo</find>
+      <find>separaPala</find>
     </findStrings>
     <replaceStrings>
       <replace>texto</replace>
@@ -321,15 +269,22 @@
         <option value="$PROJECT_DIR$/src/main/java/hello/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/hello/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/hello/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/Contexto.java" />
         <option value="$PROJECT_DIR$/src/main/java/hello/CustomComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/hello/Significado.java" />
         <option value="$PROJECT_DIR$/src/main/java/hello/Token.java" />
         <option value="$PROJECT_DIR$/src/main/java/hello/WebDriverWait.java" />
         <option value="$PROJECT_DIR$/src/main/java/hello/SeparaSilabas.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/Palabra.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/package.json" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/bundle.js" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/Palabra.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/Texto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/Complejidad.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/Contexto.java" />
         <option value="$PROJECT_DIR$/src/main/java/hello/ApiController.java" />
       </list>
     </option>
@@ -429,6 +384,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -491,7 +448,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gs-rest-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complete" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gs-rest-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complete" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -531,14 +532,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -550,13 +557,16 @@
     <property name="project.structure.side.proportion" value="0.61494255" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Javier\Desktop\TFG\complete\src\main\webapp\js" />
+      <recent name="C:\Users\Javier\Desktop\TFG\complete\src\main\webapp" />
+      <recent name="C:\Users\Javier\Desktop\TFG\complete\src\main\resources\templates" />
+      <recent name="C:\Users\Javier\Desktop\TFG\complete\src\main\java\hello" />
+      <recent name="C:\Users\Javier\Desktop\TFG\complete\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Javier\Desktop\TFG\complete\src\main\resources" />
       <recent name="C:\Users\Javier\Desktop\TFG\complete" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Javier\Desktop\TFG\complete\src\main\java\hello" />
-      <recent name="C:\Users\Javier\Desktop\TFG\complete\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Application">
@@ -862,14 +872,14 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5025" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17609255" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17609255" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38354254" sideWeight="0.4975" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20223153" sideWeight="0.4975" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18637532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26092544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -897,7 +907,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -906,68 +916,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Palabra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-          <folding>
-            <element signature="e#188#189#0" expanded="false" />
-            <element signature="e#214#215#0" expanded="false" />
-            <element signature="e#252#253#0" expanded="false" />
-            <element signature="e#282#283#0" expanded="false" />
-            <element signature="e#466#467#0" expanded="false" />
-            <element signature="e#493#494#0" expanded="false" />
-            <element signature="e#648#649#0" expanded="false" />
-            <element signature="e#680#681#0" expanded="false" />
-            <element signature="e#714#715#0" expanded="false" />
-            <element signature="e#744#745#0" expanded="false" />
-            <element signature="e#790#791#0" expanded="false" />
-            <element signature="e#828#829#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Contexto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-          <folding>
-            <element signature="e#168#169#0" expanded="false" />
-            <element signature="e#196#197#0" expanded="false" />
-            <element signature="e#385#386#0" expanded="false" />
-            <element signature="e#419#420#0" expanded="false" />
-            <element signature="e#452#453#0" expanded="false" />
-            <element signature="e#481#482#0" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-            <element signature="e#561#562#0" expanded="false" />
-            <element signature="e#602#603#0" expanded="false" />
-            <element signature="e#645#646#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Significado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding>
-            <element signature="e#174#175#0" expanded="false" />
-            <element signature="e#205#206#0" expanded="false" />
-            <element signature="e#412#413#0" expanded="false" />
-            <element signature="e#452#453#0" expanded="false" />
-            <element signature="e#484#485#0" expanded="false" />
-            <element signature="e#512#513#0" expanded="false" />
-            <element signature="e#554#555#0" expanded="false" />
-            <element signature="e#588#589#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="76" lean-forward="false" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -983,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -992,21 +943,30 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#calcularContextos#0;class#ApiController#0" expanded="false" />
-            <element signature="method#calcularComplejidad#0;class#ApiController#0" expanded="false" />
+            <element signature="e#1251#1261#0" expanded="true" />
             <element signature="method#devuelveSignificado#0;class#ApiController#0" expanded="false" />
+            <element signature="e#8582#8595#0" expanded="true" />
+            <element signature="method#devuelveSignificado2#0;class#ApiController#0" expanded="false" />
             <element signature="method#esArticulo#0;class#ApiController#0" expanded="false" />
             <element signature="method#esPreposicion#0;class#ApiController#0" expanded="false" />
             <element signature="method#esConjuncion#0;class#ApiController#0" expanded="false" />
             <element signature="method#convertirTexto#0;class#ApiController#0" expanded="false" />
+            <element signature="e#28597#28606#0" expanded="true" />
             <element signature="method#cambiaPuntuacion#0;class#ApiController#0" expanded="false" />
+            <element signature="e#29834#29843#0" expanded="true" />
             <element signature="method#esCompleta#0;class#ApiController#0" expanded="false" />
             <element signature="method#devuelveFrase#0;class#ApiController#0" expanded="false" />
             <element signature="method#cambiaSinonimo#0;class#ApiController#0" expanded="false" />
+            <element signature="method#cambiaFlexion#0;class#ApiController#0" expanded="false" />
             <element signature="method#llamaDiccionario#0;class#ApiController#0" expanded="false" />
+            <element signature="method#llamaFreeling#0;class#ApiController#0" expanded="false" />
             <element signature="method#significadoDiccionario#0;class#ApiController#0" expanded="false" />
+            <element signature="e#44407#44420#0" expanded="true" />
             <element signature="method#significadoDiccionarioFacil#0;class#ApiController#0" expanded="false" />
+            <element signature="e#45652#45665#0" expanded="true" />
+            <element signature="method#esParticipio#0;class#ApiController#0" expanded="false" />
+            <element signature="method#quitarFlexion#0;class#ApiController#0" expanded="false" />
             <element signature="method#perteneceVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#presenteVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#imperfectoVSer#0;class#ApiController#0" expanded="false" />
@@ -1014,8 +974,10 @@
             <element signature="method#futuroVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#condicionalVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#pretperfVSer#0;class#ApiController#0" expanded="false" />
-            <marker date="1498498371519" expanded="false" signature="21831:21840" ph="&lt;~&gt;" />
-            <marker date="1498498371519" expanded="false" signature="33118:33127" ph="&lt;~&gt;" />
+            <element signature="method#cambiaActiva#0;class#ApiController#0" expanded="false" />
+            <element signature="e#54861#54869#0" expanded="true" />
+            <marker date="1500054797016" expanded="false" signature="23337:23346" ph="&lt;~&gt;" />
+            <marker date="1500054797016" expanded="false" signature="40694:40703" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -1024,20 +986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-          <folding>
-            <element signature="e#188#189#0" expanded="false" />
-            <element signature="e#214#215#0" expanded="false" />
-            <element signature="e#252#253#0" expanded="false" />
-            <element signature="e#282#283#0" expanded="false" />
-            <element signature="e#466#467#0" expanded="false" />
-            <element signature="e#493#494#0" expanded="false" />
-            <element signature="e#648#649#0" expanded="false" />
-            <element signature="e#680#681#0" expanded="false" />
-            <element signature="e#714#715#0" expanded="false" />
-            <element signature="e#744#745#0" expanded="false" />
-            <element signature="e#790#791#0" expanded="false" />
-            <element signature="e#828#829#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1045,18 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-          <folding>
-            <element signature="e#168#169#0" expanded="false" />
-            <element signature="e#196#197#0" expanded="false" />
-            <element signature="e#385#386#0" expanded="false" />
-            <element signature="e#419#420#0" expanded="false" />
-            <element signature="e#452#453#0" expanded="false" />
-            <element signature="e#481#482#0" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-            <element signature="e#561#562#0" expanded="false" />
-            <element signature="e#602#603#0" expanded="false" />
-            <element signature="e#645#646#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1064,16 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding>
-            <element signature="e#174#175#0" expanded="false" />
-            <element signature="e#205#206#0" expanded="false" />
-            <element signature="e#412#413#0" expanded="false" />
-            <element signature="e#452#453#0" expanded="false" />
-            <element signature="e#484#485#0" expanded="false" />
-            <element signature="e#512#513#0" expanded="false" />
-            <element signature="e#554#555#0" expanded="false" />
-            <element signature="e#588#589#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1081,7 +1007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="76" lean-forward="false" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1097,7 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,21 +1030,30 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#calcularContextos#0;class#ApiController#0" expanded="false" />
-            <element signature="method#calcularComplejidad#0;class#ApiController#0" expanded="false" />
+            <element signature="e#1251#1261#0" expanded="true" />
             <element signature="method#devuelveSignificado#0;class#ApiController#0" expanded="false" />
+            <element signature="e#8582#8595#0" expanded="true" />
+            <element signature="method#devuelveSignificado2#0;class#ApiController#0" expanded="false" />
             <element signature="method#esArticulo#0;class#ApiController#0" expanded="false" />
             <element signature="method#esPreposicion#0;class#ApiController#0" expanded="false" />
             <element signature="method#esConjuncion#0;class#ApiController#0" expanded="false" />
             <element signature="method#convertirTexto#0;class#ApiController#0" expanded="false" />
+            <element signature="e#28597#28606#0" expanded="true" />
             <element signature="method#cambiaPuntuacion#0;class#ApiController#0" expanded="false" />
+            <element signature="e#29834#29843#0" expanded="true" />
             <element signature="method#esCompleta#0;class#ApiController#0" expanded="false" />
             <element signature="method#devuelveFrase#0;class#ApiController#0" expanded="false" />
             <element signature="method#cambiaSinonimo#0;class#ApiController#0" expanded="false" />
+            <element signature="method#cambiaFlexion#0;class#ApiController#0" expanded="false" />
             <element signature="method#llamaDiccionario#0;class#ApiController#0" expanded="false" />
+            <element signature="method#llamaFreeling#0;class#ApiController#0" expanded="false" />
             <element signature="method#significadoDiccionario#0;class#ApiController#0" expanded="false" />
+            <element signature="e#44407#44420#0" expanded="true" />
             <element signature="method#significadoDiccionarioFacil#0;class#ApiController#0" expanded="false" />
+            <element signature="e#45652#45665#0" expanded="true" />
+            <element signature="method#esParticipio#0;class#ApiController#0" expanded="false" />
+            <element signature="method#quitarFlexion#0;class#ApiController#0" expanded="false" />
             <element signature="method#perteneceVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#presenteVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#imperfectoVSer#0;class#ApiController#0" expanded="false" />
@@ -1128,8 +1061,10 @@
             <element signature="method#futuroVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#condicionalVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#pretperfVSer#0;class#ApiController#0" expanded="false" />
-            <marker date="1498498371519" expanded="false" signature="21831:21840" ph="&lt;~&gt;" />
-            <marker date="1498498371519" expanded="false" signature="33118:33127" ph="&lt;~&gt;" />
+            <element signature="method#cambiaActiva#0;class#ApiController#0" expanded="false" />
+            <element signature="e#54861#54869#0" expanded="true" />
+            <marker date="1500054797016" expanded="false" signature="23337:23346" ph="&lt;~&gt;" />
+            <marker date="1500054797016" expanded="false" signature="40694:40703" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -1138,20 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-          <folding>
-            <element signature="e#188#189#0" expanded="false" />
-            <element signature="e#214#215#0" expanded="false" />
-            <element signature="e#252#253#0" expanded="false" />
-            <element signature="e#282#283#0" expanded="false" />
-            <element signature="e#466#467#0" expanded="false" />
-            <element signature="e#493#494#0" expanded="false" />
-            <element signature="e#648#649#0" expanded="false" />
-            <element signature="e#680#681#0" expanded="false" />
-            <element signature="e#714#715#0" expanded="false" />
-            <element signature="e#744#745#0" expanded="false" />
-            <element signature="e#790#791#0" expanded="false" />
-            <element signature="e#828#829#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1159,18 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-          <folding>
-            <element signature="e#168#169#0" expanded="false" />
-            <element signature="e#196#197#0" expanded="false" />
-            <element signature="e#385#386#0" expanded="false" />
-            <element signature="e#419#420#0" expanded="false" />
-            <element signature="e#452#453#0" expanded="false" />
-            <element signature="e#481#482#0" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-            <element signature="e#561#562#0" expanded="false" />
-            <element signature="e#602#603#0" expanded="false" />
-            <element signature="e#645#646#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1178,16 +1087,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding>
-            <element signature="e#174#175#0" expanded="false" />
-            <element signature="e#205#206#0" expanded="false" />
-            <element signature="e#412#413#0" expanded="false" />
-            <element signature="e#452#453#0" expanded="false" />
-            <element signature="e#484#485#0" expanded="false" />
-            <element signature="e#512#513#0" expanded="false" />
-            <element signature="e#554#555#0" expanded="false" />
-            <element signature="e#588#589#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1195,7 +1094,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="76" lean-forward="false" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1211,7 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1220,21 +1117,30 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#calcularContextos#0;class#ApiController#0" expanded="false" />
-            <element signature="method#calcularComplejidad#0;class#ApiController#0" expanded="false" />
+            <element signature="e#1251#1261#0" expanded="true" />
             <element signature="method#devuelveSignificado#0;class#ApiController#0" expanded="false" />
+            <element signature="e#8582#8595#0" expanded="true" />
+            <element signature="method#devuelveSignificado2#0;class#ApiController#0" expanded="false" />
             <element signature="method#esArticulo#0;class#ApiController#0" expanded="false" />
             <element signature="method#esPreposicion#0;class#ApiController#0" expanded="false" />
             <element signature="method#esConjuncion#0;class#ApiController#0" expanded="false" />
             <element signature="method#convertirTexto#0;class#ApiController#0" expanded="false" />
+            <element signature="e#28597#28606#0" expanded="true" />
             <element signature="method#cambiaPuntuacion#0;class#ApiController#0" expanded="false" />
+            <element signature="e#29834#29843#0" expanded="true" />
             <element signature="method#esCompleta#0;class#ApiController#0" expanded="false" />
             <element signature="method#devuelveFrase#0;class#ApiController#0" expanded="false" />
             <element signature="method#cambiaSinonimo#0;class#ApiController#0" expanded="false" />
+            <element signature="method#cambiaFlexion#0;class#ApiController#0" expanded="false" />
             <element signature="method#llamaDiccionario#0;class#ApiController#0" expanded="false" />
+            <element signature="method#llamaFreeling#0;class#ApiController#0" expanded="false" />
             <element signature="method#significadoDiccionario#0;class#ApiController#0" expanded="false" />
+            <element signature="e#44407#44420#0" expanded="true" />
             <element signature="method#significadoDiccionarioFacil#0;class#ApiController#0" expanded="false" />
+            <element signature="e#45652#45665#0" expanded="true" />
+            <element signature="method#esParticipio#0;class#ApiController#0" expanded="false" />
+            <element signature="method#quitarFlexion#0;class#ApiController#0" expanded="false" />
             <element signature="method#perteneceVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#presenteVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#imperfectoVSer#0;class#ApiController#0" expanded="false" />
@@ -1242,8 +1148,10 @@
             <element signature="method#futuroVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#condicionalVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#pretperfVSer#0;class#ApiController#0" expanded="false" />
-            <marker date="1498498371519" expanded="false" signature="21831:21840" ph="&lt;~&gt;" />
-            <marker date="1498498371519" expanded="false" signature="33118:33127" ph="&lt;~&gt;" />
+            <element signature="method#cambiaActiva#0;class#ApiController#0" expanded="false" />
+            <element signature="e#54861#54869#0" expanded="true" />
+            <marker date="1500054797016" expanded="false" signature="23337:23346" ph="&lt;~&gt;" />
+            <marker date="1500054797016" expanded="false" signature="40694:40703" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -1252,20 +1160,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-          <folding>
-            <element signature="e#188#189#0" expanded="false" />
-            <element signature="e#214#215#0" expanded="false" />
-            <element signature="e#252#253#0" expanded="false" />
-            <element signature="e#282#283#0" expanded="false" />
-            <element signature="e#466#467#0" expanded="false" />
-            <element signature="e#493#494#0" expanded="false" />
-            <element signature="e#648#649#0" expanded="false" />
-            <element signature="e#680#681#0" expanded="false" />
-            <element signature="e#714#715#0" expanded="false" />
-            <element signature="e#744#745#0" expanded="false" />
-            <element signature="e#790#791#0" expanded="false" />
-            <element signature="e#828#829#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1273,18 +1167,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-          <folding>
-            <element signature="e#168#169#0" expanded="false" />
-            <element signature="e#196#197#0" expanded="false" />
-            <element signature="e#385#386#0" expanded="false" />
-            <element signature="e#419#420#0" expanded="false" />
-            <element signature="e#452#453#0" expanded="false" />
-            <element signature="e#481#482#0" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-            <element signature="e#561#562#0" expanded="false" />
-            <element signature="e#602#603#0" expanded="false" />
-            <element signature="e#645#646#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1292,16 +1174,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding>
-            <element signature="e#174#175#0" expanded="false" />
-            <element signature="e#205#206#0" expanded="false" />
-            <element signature="e#412#413#0" expanded="false" />
-            <element signature="e#452#453#0" expanded="false" />
-            <element signature="e#484#485#0" expanded="false" />
-            <element signature="e#512#513#0" expanded="false" />
-            <element signature="e#554#555#0" expanded="false" />
-            <element signature="e#588#589#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1309,7 +1181,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="76" lean-forward="false" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1325,7 +1196,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1334,21 +1204,30 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#calcularContextos#0;class#ApiController#0" expanded="false" />
-            <element signature="method#calcularComplejidad#0;class#ApiController#0" expanded="false" />
+            <element signature="e#1251#1261#0" expanded="true" />
             <element signature="method#devuelveSignificado#0;class#ApiController#0" expanded="false" />
+            <element signature="e#8582#8595#0" expanded="true" />
+            <element signature="method#devuelveSignificado2#0;class#ApiController#0" expanded="false" />
             <element signature="method#esArticulo#0;class#ApiController#0" expanded="false" />
             <element signature="method#esPreposicion#0;class#ApiController#0" expanded="false" />
             <element signature="method#esConjuncion#0;class#ApiController#0" expanded="false" />
             <element signature="method#convertirTexto#0;class#ApiController#0" expanded="false" />
+            <element signature="e#28597#28606#0" expanded="true" />
             <element signature="method#cambiaPuntuacion#0;class#ApiController#0" expanded="false" />
+            <element signature="e#29834#29843#0" expanded="true" />
             <element signature="method#esCompleta#0;class#ApiController#0" expanded="false" />
             <element signature="method#devuelveFrase#0;class#ApiController#0" expanded="false" />
             <element signature="method#cambiaSinonimo#0;class#ApiController#0" expanded="false" />
+            <element signature="method#cambiaFlexion#0;class#ApiController#0" expanded="false" />
             <element signature="method#llamaDiccionario#0;class#ApiController#0" expanded="false" />
+            <element signature="method#llamaFreeling#0;class#ApiController#0" expanded="false" />
             <element signature="method#significadoDiccionario#0;class#ApiController#0" expanded="false" />
+            <element signature="e#44407#44420#0" expanded="true" />
             <element signature="method#significadoDiccionarioFacil#0;class#ApiController#0" expanded="false" />
+            <element signature="e#45652#45665#0" expanded="true" />
+            <element signature="method#esParticipio#0;class#ApiController#0" expanded="false" />
+            <element signature="method#quitarFlexion#0;class#ApiController#0" expanded="false" />
             <element signature="method#perteneceVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#presenteVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#imperfectoVSer#0;class#ApiController#0" expanded="false" />
@@ -1356,8 +1235,10 @@
             <element signature="method#futuroVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#condicionalVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#pretperfVSer#0;class#ApiController#0" expanded="false" />
-            <marker date="1498498371519" expanded="false" signature="21831:21840" ph="&lt;~&gt;" />
-            <marker date="1498498371519" expanded="false" signature="33118:33127" ph="&lt;~&gt;" />
+            <element signature="method#cambiaActiva#0;class#ApiController#0" expanded="false" />
+            <element signature="e#54861#54869#0" expanded="true" />
+            <marker date="1500054797016" expanded="false" signature="23337:23346" ph="&lt;~&gt;" />
+            <marker date="1500054797016" expanded="false" signature="40694:40703" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -1366,20 +1247,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-          <folding>
-            <element signature="e#188#189#0" expanded="false" />
-            <element signature="e#214#215#0" expanded="false" />
-            <element signature="e#252#253#0" expanded="false" />
-            <element signature="e#282#283#0" expanded="false" />
-            <element signature="e#466#467#0" expanded="false" />
-            <element signature="e#493#494#0" expanded="false" />
-            <element signature="e#648#649#0" expanded="false" />
-            <element signature="e#680#681#0" expanded="false" />
-            <element signature="e#714#715#0" expanded="false" />
-            <element signature="e#744#745#0" expanded="false" />
-            <element signature="e#790#791#0" expanded="false" />
-            <element signature="e#828#829#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1387,18 +1254,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-          <folding>
-            <element signature="e#168#169#0" expanded="false" />
-            <element signature="e#196#197#0" expanded="false" />
-            <element signature="e#385#386#0" expanded="false" />
-            <element signature="e#419#420#0" expanded="false" />
-            <element signature="e#452#453#0" expanded="false" />
-            <element signature="e#481#482#0" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-            <element signature="e#561#562#0" expanded="false" />
-            <element signature="e#602#603#0" expanded="false" />
-            <element signature="e#645#646#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1406,16 +1261,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding>
-            <element signature="e#174#175#0" expanded="false" />
-            <element signature="e#205#206#0" expanded="false" />
-            <element signature="e#412#413#0" expanded="false" />
-            <element signature="e#452#453#0" expanded="false" />
-            <element signature="e#484#485#0" expanded="false" />
-            <element signature="e#512#513#0" expanded="false" />
-            <element signature="e#554#555#0" expanded="false" />
-            <element signature="e#588#589#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1423,7 +1268,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="76" lean-forward="false" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1431,128 +1275,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/CustomComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/ApiController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#calcularContextos#0;class#ApiController#0" expanded="false" />
-            <element signature="method#calcularComplejidad#0;class#ApiController#0" expanded="false" />
-            <element signature="method#devuelveSignificado#0;class#ApiController#0" expanded="false" />
-            <element signature="method#esArticulo#0;class#ApiController#0" expanded="false" />
-            <element signature="method#esPreposicion#0;class#ApiController#0" expanded="false" />
-            <element signature="method#esConjuncion#0;class#ApiController#0" expanded="false" />
-            <element signature="method#convertirTexto#0;class#ApiController#0" expanded="false" />
-            <element signature="method#cambiaPuntuacion#0;class#ApiController#0" expanded="false" />
-            <element signature="method#esCompleta#0;class#ApiController#0" expanded="false" />
-            <element signature="method#devuelveFrase#0;class#ApiController#0" expanded="false" />
-            <element signature="method#cambiaSinonimo#0;class#ApiController#0" expanded="false" />
-            <element signature="method#llamaDiccionario#0;class#ApiController#0" expanded="false" />
-            <element signature="method#significadoDiccionario#0;class#ApiController#0" expanded="false" />
-            <element signature="method#significadoDiccionarioFacil#0;class#ApiController#0" expanded="false" />
-            <element signature="method#perteneceVSer#0;class#ApiController#0" expanded="false" />
-            <element signature="method#presenteVSer#0;class#ApiController#0" expanded="false" />
-            <element signature="method#imperfectoVSer#0;class#ApiController#0" expanded="false" />
-            <element signature="method#preteritoVSer#0;class#ApiController#0" expanded="false" />
-            <element signature="method#futuroVSer#0;class#ApiController#0" expanded="false" />
-            <element signature="method#condicionalVSer#0;class#ApiController#0" expanded="false" />
-            <element signature="method#pretperfVSer#0;class#ApiController#0" expanded="false" />
-            <marker date="1498498371519" expanded="false" signature="21831:21840" ph="&lt;~&gt;" />
-            <marker date="1498498371519" expanded="false" signature="33118:33127" ph="&lt;~&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Palabra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-          <folding>
-            <element signature="e#188#189#0" expanded="false" />
-            <element signature="e#214#215#0" expanded="false" />
-            <element signature="e#252#253#0" expanded="false" />
-            <element signature="e#282#283#0" expanded="false" />
-            <element signature="e#466#467#0" expanded="false" />
-            <element signature="e#493#494#0" expanded="false" />
-            <element signature="e#648#649#0" expanded="false" />
-            <element signature="e#680#681#0" expanded="false" />
-            <element signature="e#714#715#0" expanded="false" />
-            <element signature="e#744#745#0" expanded="false" />
-            <element signature="e#790#791#0" expanded="false" />
-            <element signature="e#828#829#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Contexto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-          <folding>
-            <element signature="e#168#169#0" expanded="false" />
-            <element signature="e#196#197#0" expanded="false" />
-            <element signature="e#385#386#0" expanded="false" />
-            <element signature="e#419#420#0" expanded="false" />
-            <element signature="e#452#453#0" expanded="false" />
-            <element signature="e#481#482#0" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-            <element signature="e#561#562#0" expanded="false" />
-            <element signature="e#602#603#0" expanded="false" />
-            <element signature="e#645#646#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Significado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding>
-            <element signature="e#174#175#0" expanded="false" />
-            <element signature="e#205#206#0" expanded="false" />
-            <element signature="e#412#413#0" expanded="false" />
-            <element signature="e#452#453#0" expanded="false" />
-            <element signature="e#484#485#0" expanded="false" />
-            <element signature="e#512#513#0" expanded="false" />
-            <element signature="e#554#555#0" expanded="false" />
-            <element signature="e#588#589#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="76" lean-forward="false" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="76" lean-forward="false" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
           <folding />
         </state>
       </provider>
@@ -1561,35 +1283,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5049">
           <caret line="305" column="9" lean-forward="false" selection-start-line="305" selection-start-column="9" selection-end-line="305" selection-end-column="9" />
-          <folding>
-            <element signature="e#123#124#0" expanded="false" />
-            <element signature="e#149#150#0" expanded="false" />
-            <element signature="e#178#179#0" expanded="false" />
-            <element signature="e#205#206#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-            <element signature="e#664#665#0" expanded="false" />
-            <element signature="e#710#711#0" expanded="false" />
-            <element signature="e#744#745#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Contexto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-          <folding>
-            <element signature="e#168#169#0" expanded="false" />
-            <element signature="e#196#197#0" expanded="false" />
-            <element signature="e#385#386#0" expanded="false" />
-            <element signature="e#419#420#0" expanded="false" />
-            <element signature="e#452#453#0" expanded="false" />
-            <element signature="e#481#482#0" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-            <element signature="e#561#562#0" expanded="false" />
-            <element signature="e#602#603#0" expanded="false" />
-            <element signature="e#645#646#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1597,104 +1290,174 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Palabra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="e#188#189#0" expanded="false" />
-            <element signature="e#214#215#0" expanded="false" />
-            <element signature="e#252#253#0" expanded="false" />
-            <element signature="e#282#283#0" expanded="false" />
-            <element signature="e#466#467#0" expanded="false" />
-            <element signature="e#493#494#0" expanded="false" />
-            <element signature="e#648#649#0" expanded="false" />
-            <element signature="e#680#681#0" expanded="false" />
-            <element signature="e#714#715#0" expanded="false" />
-            <element signature="e#744#745#0" expanded="false" />
-            <element signature="e#790#791#0" expanded="false" />
-            <element signature="e#828#829#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Significado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding>
-            <element signature="e#174#175#0" expanded="false" />
-            <element signature="e#205#206#0" expanded="false" />
-            <element signature="e#412#413#0" expanded="false" />
-            <element signature="e#452#453#0" expanded="false" />
-            <element signature="e#484#485#0" expanded="false" />
-            <element signature="e#512#513#0" expanded="false" />
-            <element signature="e#554#555#0" expanded="false" />
-            <element signature="e#588#589#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#293#294#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/htmlunit-driver/2.26/htmlunit-driver-2.26.jar!/org/openqa/selenium/htmlunit/HtmlUnitDriver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
+        <state relative-caret-position="612">
           <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
-          <folding>
-            <element signature="e#7591#7592#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_25/jre/lib/rt.jar!/java/net/URLClassLoader.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="2550">
           <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/HomeController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/Item.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/NuevoItem.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/package.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2584">
+          <caret line="152" column="0" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373099">
+          <caret line="21947" column="36" lean-forward="false" selection-start-line="21947" selection-start-column="36" selection-end-line="21947" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="109" column="39" lean-forward="false" selection-start-line="109" selection-start-column="39" selection-end-line="109" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Significado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Palabra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="46" column="2" lean-forward="false" selection-start-line="46" selection-start-column="2" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="e#236#237#0" expanded="false" />
+            <element signature="e#262#263#0" expanded="false" />
+            <element signature="e#300#301#0" expanded="false" />
+            <element signature="e#330#331#0" expanded="false" />
+            <element signature="e#360#361#0" expanded="false" />
+            <element signature="e#386#387#0" expanded="false" />
+            <element signature="e#424#425#0" expanded="false" />
+            <element signature="e#454#455#0" expanded="false" />
+            <element signature="e#484#485#0" expanded="false" />
+            <element signature="e#510#511#0" expanded="false" />
+            <element signature="e#548#549#0" expanded="false" />
+            <element signature="e#578#579#0" expanded="false" />
+            <element signature="e#858#859#0" expanded="false" />
+            <element signature="e#885#886#0" expanded="false" />
+            <element signature="e#1394#1395#0" expanded="false" />
+            <element signature="e#1426#1427#0" expanded="false" />
+            <element signature="e#1460#1461#0" expanded="false" />
+            <element signature="e#1490#1491#0" expanded="false" />
+            <element signature="e#1536#1537#0" expanded="false" />
+            <element signature="e#1574#1575#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Texto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <element signature="e#462#463#0" expanded="false" />
+            <element signature="e#493#494#0" expanded="false" />
+            <element signature="e#553#554#0" expanded="false" />
+            <element signature="e#593#594#0" expanded="false" />
+            <element signature="e#643#644#0" expanded="false" />
+            <element signature="e#675#676#0" expanded="false" />
+            <element signature="e#738#739#0" expanded="false" />
+            <element signature="e#780#781#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Complejidad.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="53" column="30" lean-forward="false" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Contexto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="55" lean-forward="false" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hello/ApiController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="978" column="8" lean-forward="false" selection-start-line="978" selection-start-column="8" selection-end-line="978" selection-end-column="8" />
+        <state relative-caret-position="310">
+          <caret line="156" column="25" lean-forward="false" selection-start-line="156" selection-start-column="25" selection-end-line="156" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#calcularContextos#0;class#ApiController#0" expanded="false" />
-            <element signature="method#calcularComplejidad#0;class#ApiController#0" expanded="false" />
+            <element signature="e#1251#1261#0" expanded="true" />
             <element signature="method#devuelveSignificado#0;class#ApiController#0" expanded="false" />
+            <element signature="e#8582#8595#0" expanded="true" />
+            <element signature="method#devuelveSignificado2#0;class#ApiController#0" expanded="false" />
             <element signature="method#esArticulo#0;class#ApiController#0" expanded="false" />
             <element signature="method#esPreposicion#0;class#ApiController#0" expanded="false" />
             <element signature="method#esConjuncion#0;class#ApiController#0" expanded="false" />
             <element signature="method#convertirTexto#0;class#ApiController#0" expanded="false" />
+            <element signature="e#28597#28606#0" expanded="true" />
             <element signature="method#cambiaPuntuacion#0;class#ApiController#0" expanded="false" />
+            <element signature="e#29834#29843#0" expanded="true" />
             <element signature="method#esCompleta#0;class#ApiController#0" expanded="false" />
             <element signature="method#devuelveFrase#0;class#ApiController#0" expanded="false" />
             <element signature="method#cambiaSinonimo#0;class#ApiController#0" expanded="false" />
+            <element signature="method#cambiaFlexion#0;class#ApiController#0" expanded="false" />
             <element signature="method#llamaDiccionario#0;class#ApiController#0" expanded="false" />
+            <element signature="method#llamaFreeling#0;class#ApiController#0" expanded="false" />
             <element signature="method#significadoDiccionario#0;class#ApiController#0" expanded="false" />
+            <element signature="e#44407#44420#0" expanded="true" />
             <element signature="method#significadoDiccionarioFacil#0;class#ApiController#0" expanded="false" />
+            <element signature="e#45652#45665#0" expanded="true" />
+            <element signature="method#esParticipio#0;class#ApiController#0" expanded="false" />
+            <element signature="method#quitarFlexion#0;class#ApiController#0" expanded="false" />
             <element signature="method#perteneceVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#presenteVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#imperfectoVSer#0;class#ApiController#0" expanded="false" />
@@ -1702,8 +1465,10 @@
             <element signature="method#futuroVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#condicionalVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#pretperfVSer#0;class#ApiController#0" expanded="false" />
-            <marker date="1498498371519" expanded="false" signature="21831:21840" ph="&lt;~&gt;" />
-            <marker date="1498498371519" expanded="false" signature="33118:33127" ph="&lt;~&gt;" />
+            <element signature="method#cambiaActiva#0;class#ApiController#0" expanded="false" />
+            <element signature="e#54861#54869#0" expanded="true" />
+            <marker date="1500054797016" expanded="false" signature="23337:23346" ph="&lt;~&gt;" />
+            <marker date="1500054797016" expanded="false" signature="40694:40703" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>

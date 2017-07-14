@@ -10,7 +10,8 @@ public class Contexto
 
 
     public double getValor() {
-        return valor;
+
+        return (double)Math.round(valor * 1000d) / 1000d;
     }
 
     public Contexto() {
