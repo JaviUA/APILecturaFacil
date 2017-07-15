@@ -121,7 +121,7 @@ var NuevoItemComponente = React.createClass({
 
      var estiloBoton={'width':'30%'};
 
-     var buttonSection= {
+     var centerSection= {
       'text-align': 'center', 
      }
 
@@ -159,8 +159,8 @@ var NuevoItemComponente = React.createClass({
 
             <textarea placeholder="Introduce el texto..."
                       ref={(campo)=>{this.campoComentario=campo}}/> <br/>
-            <div style={buttonSection}> <button className="btn btn-primary" style={estiloBoton} onClick={this.clickAdd}  >Convertir</button></div> <br/>
-             <span className="label label-danger">{this.state.error}</span>
+            <div style={centerSection}> <button className="btn btn-primary" style={estiloBoton} onClick={this.clickAdd}  >Convertir</button> <br/>
+             <span className="label label-danger">{this.state.error}</span></div>
         </div>
       } 
       else

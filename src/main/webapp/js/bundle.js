@@ -27694,7 +27694,7 @@
 	
 	    var estiloBoton = { 'width': '30%' };
 	
-	    var buttonSection = {
+	    var centerSection = {
 	      'text-align': 'center'
 	    };
 	
@@ -27741,20 +27741,20 @@
 	        React.createElement('br', null),
 	        React.createElement(
 	          'div',
-	          { style: buttonSection },
+	          { style: centerSection },
 	          ' ',
 	          React.createElement(
 	            'button',
 	            { className: 'btn btn-primary', style: estiloBoton, onClick: this.clickAdd },
 	            'Convertir'
+	          ),
+	          ' ',
+	          React.createElement('br', null),
+	          React.createElement(
+	            'span',
+	            { className: 'label label-danger' },
+	            this.state.error
 	          )
-	        ),
-	        ' ',
-	        React.createElement('br', null),
-	        React.createElement(
-	          'span',
-	          { className: 'label label-danger' },
-	          this.state.error
 	        )
 	      );
 	    } else {
