@@ -707,63 +707,94 @@ public class ApiController {
 
         if(pasivas)
         {
+            nuevoTexto=cambiaTextoPasivas(nuevoTexto);
 
-            String frases[]=nuevoTexto.split("\\.");
-            nuevoTexto="";
-            boolean paragrafo=false;
+        }
 
-            for(int j=0;j<frases.length;j++)
+
+        System.out.println("Obtenido al final"+nuevoTexto);
+
+        ArrayList<Palabra> pals=separaPalabras(nuevoTexto);
+
+
+        if(complejidad)
+        {
+            Complejidad comp=new Complejidad(compAntes,calcularComplejidad(pals));
+            texto.setComplejidad(comp);
+        }
+        else
+        {
+            texto.setComplejidad(new Complejidad());
+        }
+
+        texto.setPalabras(pals);
+
+        return texto;
+    }
+
+
+
+    public  String cambiaTextoPasivas(String texto)
+    {
+        String frases[]=texto.split("\\.");
+        texto="";
+        boolean paragrafo=false;
+
+        for(int j=0;j<frases.length;j++)
+        {
+            String frase=frases[j];
+
+            if(frase.contains(","))
             {
-                String frase=frases[j];
-
-                String pals[]=frase.split(" ");
-                String vSer="";
-                boolean precedidaSer=false;
-                boolean pasiva=false;
-                String url="undefined";
-
-
-
-                for(int k=0;k<pals.length;k++)
+               String frases2[]= frase.split("\\,");
+                for(int i=0;i<frases2.length;i++)
                 {
+                    String fraseComa=frases2[i];
 
-                    if(precedidaSer)
+                    String res[]=esPasiva(fraseComa);
+                    if(!res[0].equals("undefined"))
                     {
-                        String pal=quitarFlexion(pals[k]);
-                        System.out.println("Despues de quitar flexion"+pal);
-                        url=esParticipio(pal);
-                        System.out.println(url);
-                        if(!url.equals("undefined"))
+                        String url=res[0];
+                        String vSer=res[1];
+
+                        System.out.println("Frase hasta coma: "+fraseComa);
+
+                        if(!fraseComa.startsWith(" "))
                         {
-                            pasiva=true;
-                        }
-
-                    }
-
-                    if(perteneceVSer(pals[k]))
-                    {
-
-                        if(pals[k].equals("sido") && (k-1)>=0)
-                        {
-                            vSer=pals[k-1]+" "+pals[k];
+                            fraseComa=Character.toLowerCase(fraseComa.charAt(0))+fraseComa.substring(1,fraseComa.length()); //Pasar a minúscula el C Ag
+                            fraseComa=" "+fraseComa;
                         }
                         else
                         {
-                            vSer=pals[k];
+                            fraseComa=Character.toLowerCase(fraseComa.charAt(1))+fraseComa.substring(2,fraseComa.length()); //Pasar a minúscula el C Ag
+                            fraseComa=" "+fraseComa;
                         }
 
-                        precedidaSer=true;
+
+                        fraseComa=cambiaActiva(fraseComa, url, vSer);
+                        System.out.println("fraseComa obtenidad: "+fraseComa);
+                        if(i==0)
+                        fraseComa=" "+Character.toUpperCase(fraseComa.charAt(0))+fraseComa.substring(1,fraseComa.length()); //Cambiar la primera letra a mayúscula
+                        else
+                        {
+                            fraseComa=" "+fraseComa;
+                        }
+
                     }
+
+                    if(i<frases2.length-1)
+                        texto=texto+fraseComa+",";
                     else
-                    {
-                        precedidaSer=false;
-                    }
-
-
+                        texto=texto+fraseComa+".";
                 }
-
-                if(pasiva==true)
+            }
+            else
+            {
+                String res[]=esPasiva(frase);
+                if(!res[0].equals("undefined"))
                 {
+                    String url=res[0];
+                    String vSer=res[1];
 
                     System.out.println("Unica frase: "+frase);
                     paragrafo=false;
@@ -794,33 +825,70 @@ public class ApiController {
                         frase=frase+"|";
                 }
 
-                nuevoTexto=nuevoTexto+frase+".";
+                texto=texto+frase+".";
             }
 
+
+
+
+
         }
-
-
-        System.out.println("Obtenido al final"+nuevoTexto);
-
-        ArrayList<Palabra> pals=separaPalabras(nuevoTexto);
-
-
-        if(complejidad)
-        {
-            Complejidad comp=new Complejidad(compAntes,calcularComplejidad(pals));
-            texto.setComplejidad(comp);
-        }
-        else
-        {
-            texto.setComplejidad(new Complejidad());
-        }
-
-        texto.setPalabras(pals);
 
         return texto;
+
     }
 
+    public String[] esPasiva(String frase)
+    {
+        String pals[]=frase.split(" ");
+        boolean precedidaSer=false;
+        String vSer="";
+        boolean pasiva=false;
+        String url="undefined";
 
+        for(int k=0;k<pals.length;k++)
+        {
+
+            if(precedidaSer)
+            {
+                String pal=quitarFlexion(pals[k]);
+                System.out.println("Despues de quitar flexion"+pal);
+                url=esParticipio(pal);
+                System.out.println(url);
+                if(!url.equals("undefined"))
+                {
+                    pasiva=true;
+                }
+
+            }
+
+            if(perteneceVSer(pals[k]))
+            {
+
+                if(pals[k].equals("sido") && (k-1)>=0)
+                {
+                    vSer=pals[k-1]+" "+pals[k];
+                }
+                else
+                {
+                    vSer=pals[k];
+                }
+
+                precedidaSer=true;
+            }
+            else
+            {
+                precedidaSer=false;
+            }
+
+
+        }
+
+        String[] resultado=new String[2];
+        resultado[0]=url;
+        resultado[1]=vSer;
+        return resultado;
+    }
 
     public static ArrayList<Palabra> separaPalabras(String texto)
     {
