@@ -615,7 +615,7 @@ public class ApiController {
 
         }
 
-       ArrayList<Palabra> pals=separaPalabras(nuevoTexto);
+       ArrayList<Palabra> pals=separaPalabras(nuevoTexto, true);
        Texto texto=new Texto();
        texto.setPalabras(pals);
         return texto;
@@ -637,13 +637,10 @@ public class ApiController {
            compAntes=calcularComplejidadSimple(body);
         }
 
-        if(contextos)
-        {
-            texto.setContextos(calcularContextos(body));
-        }
+
 
         String nuevoTexto="";
-        body=body.replace(";", ",").replace("{", "(").replace("}", ")").replace("&", "y").replace("%", " por ciento");
+        body=body.replace(";", ",").replace("{", "(").replace("}", ")").replace("&", "y").replace("%", " por ciento").replace("|","");
         System.out.println(body);
         body=body.replace("\n", "|");
         System.out.println("cuerpo: "+body);
@@ -714,7 +711,7 @@ public class ApiController {
 
         System.out.println("Obtenido al final"+nuevoTexto);
 
-        ArrayList<Palabra> pals=separaPalabras(nuevoTexto);
+        ArrayList<Palabra> pals=separaPalabras(nuevoTexto, puntuacion);
 
 
         if(complejidad)
@@ -743,6 +740,7 @@ public class ApiController {
         for(int j=0;j<frases.length;j++)
         {
             String frase=frases[j];
+            System.out.println("Frase en bucle pasiva:"+frase);
 
             if(frase.contains(","))
             {
@@ -791,18 +789,20 @@ public class ApiController {
             else
             {
                 String res[]=esPasiva(frase);
+                paragrafo=false;
                 if(!res[0].equals("undefined"))
                 {
                     String url=res[0];
                     String vSer=res[1];
 
                     System.out.println("Unica frase: "+frase);
-                    paragrafo=false;
 
-                    if(frase.endsWith("|")) //Guardar simbolo para salto
+
+                    if(frase.startsWith("|")) //Guardar simbolo para salto
                     {
-                        frase.replace("|","");
+                        frase=frase.replace("|","");
                         paragrafo=true;
+                        System.out.println("llega alguna vez?");
                     }
 
                     if(!frase.startsWith(" "))
@@ -822,10 +822,12 @@ public class ApiController {
                     frase=" "+Character.toUpperCase(frase.charAt(0))+frase.substring(1,frase.length()); //Cambiar la primera letra a mayúscula
 
                     if(paragrafo)
-                        frase=frase+"|";
+                        frase="|"+frase;
                 }
 
                 texto=texto+frase+".";
+
+
             }
 
 
@@ -890,9 +892,17 @@ public class ApiController {
         return resultado;
     }
 
-    public static ArrayList<Palabra> separaPalabras(String texto)
+    public static ArrayList<Palabra> separaPalabras(String texto, boolean puntuacion)
     {
         ArrayList<Palabra> palabrasArray=new ArrayList<Palabra>();
+
+        if(puntuacion)
+        {
+            texto=texto.replace(".",".|");
+            texto=texto.replace("||","|");
+        }
+
+
 
         texto=texto.replace("."," .").replace(","," ,").replace("|", " |");
         String[] palabras=texto.split(" ");
@@ -1725,10 +1735,7 @@ public class ApiController {
     }
 
 
-    public String tipoOracion(ArrayList<String> tipos)
-    {
-        return "undefined";
-    }
+
 }
 
 

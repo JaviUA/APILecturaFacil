@@ -1,31 +1,6 @@
 
 module.exports  = {
-    API_URL : 'https://applecturafacilrest.herokuapp.com/api',
-    obtenerItems: function () {
-        return fetch(this.API_URL)
-            .then(function(response) {
-                if (response.ok)
-                    return response.json()
-            })
-    },
-    addItem: function (item) {
-        return fetch(this.API_URL, {
-                   method: 'POST',
-                   headers: {
-                       'Content-type':'application/json'
-                   },
-                   body: JSON.stringify(item)
-               }).then(function (respuesta) {
-                    if (respuesta.ok)
-                    {
-                      return respuesta.json()
-                    }
-                    else
-                    {
-                      return {error:'token expirado'}
-                    }
-               })
-    },
+    API_URL : 'http://localhost:8080/api',
     getSignificado: function (pal) {
         return fetch(this.API_URL+'/significado2?palabra='+pal)
             .then(function(response) {

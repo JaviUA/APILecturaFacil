@@ -19,7 +19,7 @@ public class Texto
         this.complejidad = complejidad;
     }
 
-    private ArrayList<Contexto> contextos;
+
     private ArrayList<Palabra> palabras;
 
 
@@ -32,13 +32,6 @@ public class Texto
     }
 
 
-    public ArrayList<Contexto> getContextos() {
-        return contextos;
-    }
-
-    public void setContextos(ArrayList<Contexto> contextos) {
-        this.contextos = contextos;
-    }
 
 
 

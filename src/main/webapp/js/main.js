@@ -3,14 +3,14 @@ var ReactDOM = require('react-dom')
 
 var Calculos = require('./Calculos')
 var Opciones = require('./Opciones')
-var NuevoItem = require('./NuevoItem')
+var Texto = require('./Texto')
 
 
 
 
 ReactDOM.render(<Opciones/>,
     document.getElementById('componenteOpciones'))
-ReactDOM.render(<NuevoItem/>,
-    document.getElementById('componenteNuevoItem'))
+ReactDOM.render(<Texto/>,
+    document.getElementById('componenteTexto'))
 ReactDOM.render(<Calculos/>,
     document.getElementById('componenteCalculos'))

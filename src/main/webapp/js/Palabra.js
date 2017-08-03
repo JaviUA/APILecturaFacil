@@ -26,7 +26,7 @@ module.exports = React.createClass({
       }
       else if(this.props.tipo=='period')
       {
-        return <span><label>{this.props.nombre}</label><br/></span>
+        return <label>{this.props.nombre}</label>
       }
       else
       {
