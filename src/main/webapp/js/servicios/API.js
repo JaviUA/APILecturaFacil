@@ -1,6 +1,6 @@
 
 module.exports  = {
-    API_URL : 'http://localhost:8080/api',
+    API_URL : 'https://applecturafacilrest.herokuapp.com/api',
     getSignificado: function (pal) {
         return fetch(this.API_URL+'/significado2?palabra='+pal)
             .then(function(response) {
