@@ -9,6 +9,7 @@ module.exports = React.createClass({
 
     componentDidMount: function () {
       EventBus.eventEmitter.addListener('cambiaOpcionesModificado', this.activaModificado)
+      EventBus.eventEmitter.addListener('cambiaOpcionesInicial', this.desactivaModificado)
     },
     getInitialState : function () {
       return {pasivas: true, sinonimos: true, puntuacion: true, complejidad: false, modificado: false, complejidadAntes: undefined, complejidadDespues: undefined}
@@ -21,6 +22,13 @@ module.exports = React.createClass({
         }
        
      this.setState({modificado: true})
+
+    },
+    desactivaModificado: function () {
+        
+     
+       
+     this.setState({modificado: false})
 
     },
     clickPasivas: function () {

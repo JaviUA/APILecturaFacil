@@ -1,10 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/hello/ApiController.java" line="1404" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/hello/ApiController.java" line="1413" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1422ba3f-6c9e-4094-a80e-a36274a587b1" name="Default" comment="" />
+    <list default="true" id="1422ba3f-6c9e-4094-a80e-a36274a587b1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20140107.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_4_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_1_4_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_4_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_4_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_4_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_4_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/hello/ApiControllerTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_8_0_32.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_3_3_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_9.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_9.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_6.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_6.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_6.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_40.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_0_32.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_11.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_0_32.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_11.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_32.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_11.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_0_32.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_11.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_0_32.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_11.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_5_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_11_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_11_Final.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_3_11_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_0_11_Final.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_22.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_22.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_22.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_22.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_4_4_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_4_4_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_4_4_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_4_4_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_4_4_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_4_4_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_4_4_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_4_4_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_4_4_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_11_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_7_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_9_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_10_7_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_6_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_6_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_6_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_6_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_6_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_6_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_6_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_6_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_6_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_6_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_6_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hello/ApiController.class" afterPath="$PROJECT_DIR$/target/classes/hello/ApiController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gs-rest-service.iml" afterPath="$PROJECT_DIR$/gs-rest-service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hello/ApiController.java" afterPath="$PROJECT_DIR$/src/main/java/hello/ApiController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/Opciones.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/Opciones.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/Texto.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/Texto.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/bundle.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/bundle.js.map" afterPath="$PROJECT_DIR$/src/main/webapp/js/bundle.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/servicios/API.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/servicios/API.js" />
+    </list>
     <ignored path="gs-rest-service.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,14 +106,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ApiController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ApiController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hello/ApiController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="237" column="97" lean-forward="false" selection-start-line="237" selection-start-column="4" selection-end-line="237" selection-end-column="97" />
+            <state relative-caret-position="680">
+              <caret line="325" column="30" lean-forward="false" selection-start-line="325" selection-start-column="30" selection-end-line="325" selection-end-column="42" />
               <folding>
                 <element signature="method#calcularContextos#0;class#ApiController#0" expanded="false" />
-                <element signature="method#calcularComplejidad#0;class#ApiController#0" expanded="false" />
+                <element signature="method#calcularContextosModificado#0;class#ApiController#0" expanded="false" />
                 <element signature="method#calcularComplejidad#1;class#ApiController#0" expanded="false" />
                 <element signature="method#calcularComplejidadSimple#0;class#ApiController#0" expanded="false" />
                 <element signature="method#devuelveSignificado#0;class#ApiController#0" expanded="false" />
@@ -39,6 +121,11 @@
                 <element signature="method#esArticulo#0;class#ApiController#0" expanded="false" />
                 <element signature="method#esPreposicion#0;class#ApiController#0" expanded="false" />
                 <element signature="method#esConjuncion#0;class#ApiController#0" expanded="false" />
+                <element signature="method#convertirTexto#0;class#ApiController#0" expanded="false" />
+                <element signature="method#convertirTexto2#0;class#ApiController#0" expanded="false" />
+                <element signature="method#cambiaTextoPasivas#0;class#ApiController#0" expanded="false" />
+                <element signature="method#esPasiva#0;class#ApiController#0" expanded="false" />
+                <element signature="method#separaPalabras#0;class#ApiController#0" expanded="false" />
                 <element signature="method#cambiaPuntuacion#0;class#ApiController#0" expanded="false" />
                 <element signature="method#esCompleta#0;class#ApiController#0" expanded="false" />
                 <element signature="method#devuelveFrase#0;class#ApiController#0" expanded="false" />
@@ -57,10 +144,43 @@
                 <element signature="method#futuroVSer#0;class#ApiController#0" expanded="false" />
                 <element signature="method#condicionalVSer#0;class#ApiController#0" expanded="false" />
                 <element signature="method#pretperfVSer#0;class#ApiController#0" expanded="false" />
+                <element signature="method#cambiaActiva#0;class#ApiController#0" expanded="false" />
                 <element signature="method#separaFreeling#0;class#ApiController#0" expanded="false" />
-                <marker date="1500477615423" expanded="false" signature="23261:23270" ph="&lt;~&gt;" />
-                <marker date="1500477615423" expanded="false" signature="42917:42926" ph="&lt;~&gt;" />
+                <marker date="1503591837336" expanded="false" signature="23658:23667" ph="&lt;~&gt;" />
+                <marker date="1503591837336" expanded="false" signature="43314:43323" ph="&lt;~&gt;" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiControllerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/hello/ApiControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2635">
+              <caret line="155" column="39" lean-forward="false" selection-start-line="155" selection-start-column="39" selection-end-line="155" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,6 +275,7 @@
       <replace>texto</replace>
       <replace>frase</replace>
       <replace>fraseComa</replace>
+      <replace>\&quot;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -181,15 +302,16 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/src/main/package.json" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/bundle.js" />
         <option value="$PROJECT_DIR$/src/main/java/hello/Palabra.java" />
         <option value="$PROJECT_DIR$/src/main/java/hello/Complejidad.java" />
         <option value="$PROJECT_DIR$/src/main/java/hello/Contexto.java" />
         <option value="$PROJECT_DIR$/src/main/java/hello/Texto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/ApiController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/main.js" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/ApiController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hello/ApiControllerTest.java" />
       </list>
     </option>
   </component>
@@ -289,8 +411,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -332,6 +454,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gs-rest-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complete" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hello" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -406,7 +554,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TFG/ficherosBD" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tests/pom.xml" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -445,6 +593,32 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="gs-rest-service" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ApiControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="hello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="gs-rest-service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="hello" />
+      <option name="MAIN_CLASS_NAME" value="hello.ApiControllerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -673,12 +847,14 @@
       <listeners />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.Application" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ApiControllerTest" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Application.Application" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ApiControllerTest" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -717,6 +893,38 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ApiControllerTest - 2017.08.25 at 17h 40m 33s.xml">
+      <configuration name="ApiControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiControllerTest - 2017.08.25 at 17h 41m 46s.xml">
+      <configuration name="ApiControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiControllerTest - 2017.08.25 at 17h 44m 00s.xml">
+      <configuration name="ApiControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiControllerTest - 2017.08.25 at 18h 52m 04s.xml">
+      <configuration name="ApiControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiControllerTest - 2017.08.25 at 18h 53m 09s.xml">
+      <configuration name="ApiControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiControllerTest - 2017.08.27 at 18h 59m 55s.xml">
+      <configuration name="ApiControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiControllerTest - 2017.08.27 at 19h 00m 46s.xml">
+      <configuration name="ApiControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiControllerTest - 2017.08.28 at 14h 48m 11s.xml">
+      <configuration name="ApiControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiControllerTest - 2017.08.28 at 19h 08m 59s.xml">
+      <configuration name="ApiControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiControllerTest - 2017.09.06 at 19h 21m 47s.xml">
+      <configuration name="ApiControllerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
@@ -724,18 +932,19 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32775453" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5025" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17609255" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39330545" sideWeight="0.4975" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31241283" sideWeight="0.4975" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31233934" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25385603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -746,7 +955,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32775453" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -773,14 +981,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hello/CustomComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -794,7 +994,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#calcularContextos#0;class#ApiController#0" expanded="false" />
-            <element signature="method#calcularComplejidad#0;class#ApiController#0" expanded="false" />
+            <element signature="method#calcularContextosModificado#0;class#ApiController#0" expanded="false" />
             <element signature="method#calcularComplejidad#1;class#ApiController#0" expanded="false" />
             <element signature="method#calcularComplejidadSimple#0;class#ApiController#0" expanded="false" />
             <element signature="method#devuelveSignificado#0;class#ApiController#0" expanded="false" />
@@ -802,6 +1002,11 @@
             <element signature="method#esArticulo#0;class#ApiController#0" expanded="false" />
             <element signature="method#esPreposicion#0;class#ApiController#0" expanded="false" />
             <element signature="method#esConjuncion#0;class#ApiController#0" expanded="false" />
+            <element signature="method#convertirTexto#0;class#ApiController#0" expanded="false" />
+            <element signature="method#convertirTexto2#0;class#ApiController#0" expanded="false" />
+            <element signature="method#cambiaTextoPasivas#0;class#ApiController#0" expanded="false" />
+            <element signature="method#esPasiva#0;class#ApiController#0" expanded="false" />
+            <element signature="method#separaPalabras#0;class#ApiController#0" expanded="false" />
             <element signature="method#cambiaPuntuacion#0;class#ApiController#0" expanded="false" />
             <element signature="method#esCompleta#0;class#ApiController#0" expanded="false" />
             <element signature="method#devuelveFrase#0;class#ApiController#0" expanded="false" />
@@ -820,9 +1025,10 @@
             <element signature="method#futuroVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#condicionalVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#pretperfVSer#0;class#ApiController#0" expanded="false" />
+            <element signature="method#cambiaActiva#0;class#ApiController#0" expanded="false" />
             <element signature="method#separaFreeling#0;class#ApiController#0" expanded="false" />
-            <marker date="1500477615423" expanded="false" signature="23261:23270" ph="&lt;~&gt;" />
-            <marker date="1500477615423" expanded="false" signature="42917:42926" ph="&lt;~&gt;" />
+            <marker date="1503591837336" expanded="false" signature="23658:23667" ph="&lt;~&gt;" />
+            <marker date="1503591837336" expanded="false" signature="43314:43323" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -859,7 +1065,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -876,7 +1081,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#calcularContextos#0;class#ApiController#0" expanded="false" />
-            <element signature="method#calcularComplejidad#0;class#ApiController#0" expanded="false" />
+            <element signature="method#calcularContextosModificado#0;class#ApiController#0" expanded="false" />
             <element signature="method#calcularComplejidad#1;class#ApiController#0" expanded="false" />
             <element signature="method#calcularComplejidadSimple#0;class#ApiController#0" expanded="false" />
             <element signature="method#devuelveSignificado#0;class#ApiController#0" expanded="false" />
@@ -884,6 +1089,11 @@
             <element signature="method#esArticulo#0;class#ApiController#0" expanded="false" />
             <element signature="method#esPreposicion#0;class#ApiController#0" expanded="false" />
             <element signature="method#esConjuncion#0;class#ApiController#0" expanded="false" />
+            <element signature="method#convertirTexto#0;class#ApiController#0" expanded="false" />
+            <element signature="method#convertirTexto2#0;class#ApiController#0" expanded="false" />
+            <element signature="method#cambiaTextoPasivas#0;class#ApiController#0" expanded="false" />
+            <element signature="method#esPasiva#0;class#ApiController#0" expanded="false" />
+            <element signature="method#separaPalabras#0;class#ApiController#0" expanded="false" />
             <element signature="method#cambiaPuntuacion#0;class#ApiController#0" expanded="false" />
             <element signature="method#esCompleta#0;class#ApiController#0" expanded="false" />
             <element signature="method#devuelveFrase#0;class#ApiController#0" expanded="false" />
@@ -902,9 +1112,10 @@
             <element signature="method#futuroVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#condicionalVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#pretperfVSer#0;class#ApiController#0" expanded="false" />
+            <element signature="method#cambiaActiva#0;class#ApiController#0" expanded="false" />
             <element signature="method#separaFreeling#0;class#ApiController#0" expanded="false" />
-            <marker date="1500477615423" expanded="false" signature="23261:23270" ph="&lt;~&gt;" />
-            <marker date="1500477615423" expanded="false" signature="42917:42926" ph="&lt;~&gt;" />
+            <marker date="1503591837336" expanded="false" signature="23658:23667" ph="&lt;~&gt;" />
+            <marker date="1503591837336" expanded="false" signature="43314:43323" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -941,7 +1152,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -958,7 +1168,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#calcularContextos#0;class#ApiController#0" expanded="false" />
-            <element signature="method#calcularComplejidad#0;class#ApiController#0" expanded="false" />
+            <element signature="method#calcularContextosModificado#0;class#ApiController#0" expanded="false" />
             <element signature="method#calcularComplejidad#1;class#ApiController#0" expanded="false" />
             <element signature="method#calcularComplejidadSimple#0;class#ApiController#0" expanded="false" />
             <element signature="method#devuelveSignificado#0;class#ApiController#0" expanded="false" />
@@ -966,6 +1176,11 @@
             <element signature="method#esArticulo#0;class#ApiController#0" expanded="false" />
             <element signature="method#esPreposicion#0;class#ApiController#0" expanded="false" />
             <element signature="method#esConjuncion#0;class#ApiController#0" expanded="false" />
+            <element signature="method#convertirTexto#0;class#ApiController#0" expanded="false" />
+            <element signature="method#convertirTexto2#0;class#ApiController#0" expanded="false" />
+            <element signature="method#cambiaTextoPasivas#0;class#ApiController#0" expanded="false" />
+            <element signature="method#esPasiva#0;class#ApiController#0" expanded="false" />
+            <element signature="method#separaPalabras#0;class#ApiController#0" expanded="false" />
             <element signature="method#cambiaPuntuacion#0;class#ApiController#0" expanded="false" />
             <element signature="method#esCompleta#0;class#ApiController#0" expanded="false" />
             <element signature="method#devuelveFrase#0;class#ApiController#0" expanded="false" />
@@ -984,9 +1199,10 @@
             <element signature="method#futuroVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#condicionalVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#pretperfVSer#0;class#ApiController#0" expanded="false" />
+            <element signature="method#cambiaActiva#0;class#ApiController#0" expanded="false" />
             <element signature="method#separaFreeling#0;class#ApiController#0" expanded="false" />
-            <marker date="1500477615423" expanded="false" signature="23261:23270" ph="&lt;~&gt;" />
-            <marker date="1500477615423" expanded="false" signature="42917:42926" ph="&lt;~&gt;" />
+            <marker date="1503591837336" expanded="false" signature="23658:23667" ph="&lt;~&gt;" />
+            <marker date="1503591837336" expanded="false" signature="43314:43323" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -1023,7 +1239,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1040,7 +1255,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#calcularContextos#0;class#ApiController#0" expanded="false" />
-            <element signature="method#calcularComplejidad#0;class#ApiController#0" expanded="false" />
+            <element signature="method#calcularContextosModificado#0;class#ApiController#0" expanded="false" />
             <element signature="method#calcularComplejidad#1;class#ApiController#0" expanded="false" />
             <element signature="method#calcularComplejidadSimple#0;class#ApiController#0" expanded="false" />
             <element signature="method#devuelveSignificado#0;class#ApiController#0" expanded="false" />
@@ -1048,6 +1263,11 @@
             <element signature="method#esArticulo#0;class#ApiController#0" expanded="false" />
             <element signature="method#esPreposicion#0;class#ApiController#0" expanded="false" />
             <element signature="method#esConjuncion#0;class#ApiController#0" expanded="false" />
+            <element signature="method#convertirTexto#0;class#ApiController#0" expanded="false" />
+            <element signature="method#convertirTexto2#0;class#ApiController#0" expanded="false" />
+            <element signature="method#cambiaTextoPasivas#0;class#ApiController#0" expanded="false" />
+            <element signature="method#esPasiva#0;class#ApiController#0" expanded="false" />
+            <element signature="method#separaPalabras#0;class#ApiController#0" expanded="false" />
             <element signature="method#cambiaPuntuacion#0;class#ApiController#0" expanded="false" />
             <element signature="method#esCompleta#0;class#ApiController#0" expanded="false" />
             <element signature="method#devuelveFrase#0;class#ApiController#0" expanded="false" />
@@ -1066,9 +1286,10 @@
             <element signature="method#futuroVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#condicionalVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#pretperfVSer#0;class#ApiController#0" expanded="false" />
+            <element signature="method#cambiaActiva#0;class#ApiController#0" expanded="false" />
             <element signature="method#separaFreeling#0;class#ApiController#0" expanded="false" />
-            <marker date="1500477615423" expanded="false" signature="23261:23270" ph="&lt;~&gt;" />
-            <marker date="1500477615423" expanded="false" signature="42917:42926" ph="&lt;~&gt;" />
+            <marker date="1503591837336" expanded="false" signature="23658:23667" ph="&lt;~&gt;" />
+            <marker date="1503591837336" expanded="false" signature="43314:43323" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -1105,7 +1326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1164,26 +1384,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="109" column="39" lean-forward="false" selection-start-line="109" selection-start-column="39" selection-end-line="109" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="31" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2635">
-          <caret line="155" column="39" lean-forward="false" selection-start-line="155" selection-start-column="39" selection-end-line="155" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1218,6 +1423,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2635">
+          <caret line="155" column="39" lean-forward="false" selection-start-line="155" selection-start-column="39" selection-end-line="155" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hello/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1228,11 +1441,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hello/ApiController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="237" column="97" lean-forward="false" selection-start-line="237" selection-start-column="4" selection-end-line="237" selection-end-column="97" />
+        <state relative-caret-position="680">
+          <caret line="325" column="30" lean-forward="false" selection-start-line="325" selection-start-column="30" selection-end-line="325" selection-end-column="42" />
           <folding>
             <element signature="method#calcularContextos#0;class#ApiController#0" expanded="false" />
-            <element signature="method#calcularComplejidad#0;class#ApiController#0" expanded="false" />
+            <element signature="method#calcularContextosModificado#0;class#ApiController#0" expanded="false" />
             <element signature="method#calcularComplejidad#1;class#ApiController#0" expanded="false" />
             <element signature="method#calcularComplejidadSimple#0;class#ApiController#0" expanded="false" />
             <element signature="method#devuelveSignificado#0;class#ApiController#0" expanded="false" />
@@ -1240,6 +1453,11 @@
             <element signature="method#esArticulo#0;class#ApiController#0" expanded="false" />
             <element signature="method#esPreposicion#0;class#ApiController#0" expanded="false" />
             <element signature="method#esConjuncion#0;class#ApiController#0" expanded="false" />
+            <element signature="method#convertirTexto#0;class#ApiController#0" expanded="false" />
+            <element signature="method#convertirTexto2#0;class#ApiController#0" expanded="false" />
+            <element signature="method#cambiaTextoPasivas#0;class#ApiController#0" expanded="false" />
+            <element signature="method#esPasiva#0;class#ApiController#0" expanded="false" />
+            <element signature="method#separaPalabras#0;class#ApiController#0" expanded="false" />
             <element signature="method#cambiaPuntuacion#0;class#ApiController#0" expanded="false" />
             <element signature="method#esCompleta#0;class#ApiController#0" expanded="false" />
             <element signature="method#devuelveFrase#0;class#ApiController#0" expanded="false" />
@@ -1258,9 +1476,28 @@
             <element signature="method#futuroVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#condicionalVSer#0;class#ApiController#0" expanded="false" />
             <element signature="method#pretperfVSer#0;class#ApiController#0" expanded="false" />
+            <element signature="method#cambiaActiva#0;class#ApiController#0" expanded="false" />
             <element signature="method#separaFreeling#0;class#ApiController#0" expanded="false" />
-            <marker date="1500477615423" expanded="false" signature="23261:23270" ph="&lt;~&gt;" />
-            <marker date="1500477615423" expanded="false" signature="42917:42926" ph="&lt;~&gt;" />
+            <marker date="1503591837336" expanded="false" signature="23658:23667" ph="&lt;~&gt;" />
+            <marker date="1503591837336" expanded="false" signature="43314:43323" ph="&lt;~&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hello/ApiControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

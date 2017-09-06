@@ -26735,7 +26735,7 @@
 	'use strict';
 	
 	module.exports = {
-	    API_URL: 'https://applecturafacilrest.herokuapp.com/api',
+	    API_URL: 'http://localhost:8080/api',
 	    getSignificado: function getSignificado(pal) {
 	        return fetch(this.API_URL + '/significado2?palabra=' + pal).then(function (response) {
 	            if (response.ok) return response.json();
@@ -27379,6 +27379,7 @@
 	
 	  componentDidMount: function componentDidMount() {
 	    EventBus.eventEmitter.addListener('cambiaOpcionesModificado', this.activaModificado);
+	    EventBus.eventEmitter.addListener('cambiaOpcionesInicial', this.desactivaModificado);
 	  },
 	  getInitialState: function getInitialState() {
 	    return { pasivas: true, sinonimos: true, puntuacion: true, complejidad: false, modificado: false, complejidadAntes: undefined, complejidadDespues: undefined };
@@ -27390,6 +27391,10 @@
 	    }
 	
 	    this.setState({ modificado: true });
+	  },
+	  desactivaModificado: function desactivaModificado() {
+	
+	    this.setState({ modificado: false });
 	  },
 	  clickPasivas: function clickPasivas() {
 	    var cambio = !this.state.pasivas;
@@ -27651,6 +27656,10 @@
 	  agrandaDiv: function agrandaDiv() {
 	    this.setState({ estilo: { 'font-size': '125%' } });
 	  },
+	  clickBack: function clickBack() {
+	    this.setState({ loading: false, modificado: false, significados: [] });
+	    EventBus.eventEmitter.emitEvent('cambiaOpcionesInicial');
+	  },
 	  clickAdd: function clickAdd() {
 	
 	    this.setState({ loading: true });
@@ -27781,6 +27790,16 @@
 	          ' ',
 	          React.createElement('br', null),
 	          ' ',
+	          React.createElement('br', null),
+	          React.createElement(
+	            'div',
+	            { style: centerSection },
+	            React.createElement(
+	              'button',
+	              { className: 'btn btn-primary', style: estiloBoton, onClick: this.clickBack },
+	              'Convertir otro texto'
+	            )
+	          ),
 	          React.createElement('br', null),
 	          signs
 	        )

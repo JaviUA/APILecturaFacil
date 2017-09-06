@@ -92,6 +92,11 @@ var TextoComponente = React.createClass({
     agrandaDiv: function() {
       this.setState({estilo:{'font-size': '125%'}})
     },
+    clickBack: function () {
+      this.setState({loading:false, modificado:false, significados:[]})
+       EventBus.eventEmitter.emitEvent('cambiaOpcionesInicial');
+
+    },
     clickAdd: function () {
  
 
@@ -179,9 +184,16 @@ this.setState({loading:true})
           <a style={big} href="#" onClick={this.agrandaDiv}>A</a>
           </div>
                     <br/>
+                    
               <div style={this.state.estilo}>{prods} <br/> <br/>
+              <div style={centerSection}>
+                    <button className="btn btn-primary" style={estiloBoton} onClick={this.clickBack}  >Convertir otro texto</button>
+                    </div>
+                    <br/>
               {signs} 
+
               </div>
+              
             </div> 
 
       }

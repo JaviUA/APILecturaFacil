@@ -47,63 +47,41 @@ public class ApiController {
         System.out.println("Calcular contextos de: "+body);
         Connection c = null;
         Statement stmt = null;
-        try {
-            Class.forName("org.sqlite.JDBC");
-            c = DriverManager.getConnection("jdbc:sqlite:diccionario.db");
-            c.setAutoCommit(false);
-            System.out.println("Opened database successfully");
-
-            stmt = c.createStatement();
 
 
-            String[] palabras = body.split(" ");
-            int numPalabras = palabras.length;
+            try {
+                Class.forName("org.sqlite.JDBC");
+                c = DriverManager.getConnection("jdbc:sqlite:diccionario.db");
+                c.setAutoCommit(false);
+                System.out.println("Opened database successfully");
 
-            double contador;
-            double valor;
-            String palabra;
-
-
-            for (int i = 0; i < numPalabras; i++) {
-
-                palabra = palabras[i];
-
-                if (palabra.endsWith(",")) {
-                    palabra = palabra.substring(0, palabra.length() - 1);
-                } else if (palabra.endsWith(".")) {
-                    palabra = palabra.substring(0, palabra.length() - 1);
-                }
-
-                if (!esArticulo(palabra) && !esPreposicion(palabra) && palabra.length() > 1 && !esConjuncion(palabra)) {
-                    contador = 0;
-
-                    ResultSet rs = stmt.executeQuery("SELECT significadotocontexto.contexto as contexto  FROM SIGNIFICADOTOCONTEXTO, PALABRATOSIGNIFICADO, SIGNIFICADO WHERE SIGN=SIGNID AND PAL='" + palabra + "' AND SIGNIFICADO.ID=SIGNID;");
+                stmt = c.createStatement();
 
 
-                    while (rs.next()) {
+                String[] palabras = body.split(" ");
+                int numPalabras = palabras.length;
 
-                        contador++;
-                        valor = 1 / contador;
+                double contador;
+                double valor;
+                String palabra;
 
 
-                        String contexto = rs.getString("contexto");
+                for (int i = 0; i < numPalabras; i++) {
 
-                        Contexto cont = new Contexto(valor, contexto);
+                    palabra = palabras[i];
 
-                        if (!contextos.contains(cont)) {
-                            contextos.add(cont);
-                        } else {
-                            int pos = contextos.indexOf(cont);
-                            contextos.get(pos).addValor(valor);
-                        }
-                        System.out.println(palabra);
-                        System.out.println(contexto);
+                    if (palabra.endsWith(",")) {
+                        palabra = palabra.substring(0, palabra.length() - 1);
+                    } else if (palabra.endsWith(".")) {
+                        palabra = palabra.substring(0, palabra.length() - 1);
                     }
 
-                    //palabra en plural
-                    if (contador == 0 && palabras[i].endsWith("s")) {
-                        rs = stmt.executeQuery("SELECT significadotocontexto.contexto as contexto FROM SIGNIFICADOTOCONTEXTO, PALABRATOSIGNIFICADO, SIGNIFICADO" +
-                                " WHERE SIGN=SIGNID AND PAL='" + palabra.substring(0, palabra.length() - 1) + "' AND SIGNIFICADO.ID=SIGNID;");
+                    if (!esArticulo(palabra) && !esPreposicion(palabra) && palabra.length() > 1 && !esConjuncion(palabra)) {
+                        contador = 0;
+
+                        ResultSet rs = stmt.executeQuery("SELECT significadotocontexto.contexto as contexto  FROM SIGNIFICADOTOCONTEXTO, PALABRATOSIGNIFICADO, SIGNIFICADO WHERE SIGN=SIGNID AND PAL='" + palabra + "' AND SIGNIFICADO.ID=SIGNID;");
+
+
                         while (rs.next()) {
 
                             contador++;
@@ -114,36 +92,60 @@ public class ApiController {
 
                             Contexto cont = new Contexto(valor, contexto);
 
-
                             if (!contextos.contains(cont)) {
                                 contextos.add(cont);
                             } else {
                                 int pos = contextos.indexOf(cont);
                                 contextos.get(pos).addValor(valor);
                             }
-
-
+                            System.out.println(palabra);
                             System.out.println(contexto);
                         }
+
+                        //palabra en plural
+                        if (contador == 0 && palabras[i].endsWith("s")) {
+                            rs = stmt.executeQuery("SELECT significadotocontexto.contexto as contexto FROM SIGNIFICADOTOCONTEXTO, PALABRATOSIGNIFICADO, SIGNIFICADO" +
+                                    " WHERE SIGN=SIGNID AND PAL='" + palabra.substring(0, palabra.length() - 1) + "' AND SIGNIFICADO.ID=SIGNID;");
+                            while (rs.next()) {
+
+                                contador++;
+                                valor = 1 / contador;
+
+
+                                String contexto = rs.getString("contexto");
+
+                                Contexto cont = new Contexto(valor, contexto);
+
+
+                                if (!contextos.contains(cont)) {
+                                    contextos.add(cont);
+                                } else {
+                                    int pos = contextos.indexOf(cont);
+                                    contextos.get(pos).addValor(valor);
+                                }
+
+
+                                System.out.println(contexto);
+                            }
+                        }
                     }
+
+
                 }
 
+                Collections.sort(contextos, new CustomComparator());
 
+                stmt.close();
+                c.commit();
+                c.close();
+                System.out.println("Cierra database");
+            } catch (Exception e) {
+                System.err.println(e.getClass().getName() + ": " + e.getMessage());
+                System.exit(0);
             }
 
-            stmt.close();
-            c.commit();
-            c.close();
-            System.out.println("Cierra database");
-        } catch (Exception e) {
-            System.err.println(e.getClass().getName() + ": " + e.getMessage());
-            System.exit(0);
-        }
 
 
-
-
-        Collections.sort(contextos, new CustomComparator());
         return contextos;
     }
 
@@ -182,8 +184,14 @@ public class ApiController {
         double numPuntos = 0;
         double numPalabras = 0;
 
+
         String aux = texto.replace("\n", "");
         numPuntosAparte = texto.length() - aux.length();
+
+        if(!texto.endsWith(".")) //Cuando se introduce un texto sin punto al final
+        {
+            texto=texto+".";
+        }
 
         String[] palabras = texto.replace("\n"," ").split(" ");
         numPalabras = palabras.length;
@@ -220,6 +228,7 @@ public class ApiController {
         System.out.println("Palabras: "+numPalabras);
         System.out.println("Comas: "+numComas);
         System.out.println("Frases: "+numFrases);
+
 
         double x1 = ((numComas * 100) / numPalabras) * 10;
         double x2 = ((numPuntosAparte * 100) / numPalabras) * 10;
