@@ -763,8 +763,15 @@ public class ApiController {
                     {
                         String url=res[0];
                         String vSer=res[1];
+                        paragrafo=false;
+                        System.out.println("Frase hasta coma:"+fraseComa);
 
-                        System.out.println("Frase hasta coma: "+fraseComa);
+                        if(fraseComa.startsWith("|")) //Guardar simbolo para salto
+                        {
+                            fraseComa=fraseComa.replace("|","");
+                            paragrafo=true;
+                            System.out.println("llega alguna vez?");
+                        }
 
                         if(!fraseComa.startsWith(" "))
                         {
@@ -786,6 +793,9 @@ public class ApiController {
                         {
                             fraseComa=" "+fraseComa;
                         }
+
+                        if(paragrafo)
+                            fraseComa="|"+fraseComa;
 
                     }
 
