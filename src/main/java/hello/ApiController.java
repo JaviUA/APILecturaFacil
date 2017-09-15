@@ -918,7 +918,7 @@ public class ApiController {
         if(puntuacion)
         {
             texto=texto.replace(".",".|");
-            texto=texto.replace("||","|");
+           // texto=texto.replace("||","|");
         }
 
 
@@ -941,6 +941,7 @@ public class ApiController {
                     palabrasArray.add(pal);
                     break;
                 case "|":
+                    System.out.println("Llega a other");
                     pal=new Palabra("other",palabras[i]);
                     palabrasArray.add(pal);
                     break;
